@@ -1,15 +1,21 @@
 #ifndef FARECALCULATOR_H
 #define FARECALCULATOR_H
 
+#include <utility> // For std::pair
+#include "Utility.h"
+
 class FareCalculator {
+private:
+    double base_fare;
+    double per_km_rate;
+
 public:
-    static double calculate_fare(double distance, int demand, int supply) {
-        double base_fare = 5.0;
-        double per_km_rate = 2.0;
+    FareCalculator(double base = 5.0, double per_km = 2.0)
+        : base_fare(base), per_km_rate(per_km) {}
 
-        double surge_multiplier = (demand > supply) ? 1.5 + ((demand - supply) * 0.1) : 1.0;
-
-        return (base_fare + (distance * per_km_rate)) * surge_multiplier;
+    double calculate_fare(const std::pair<int, int>& start, const std::pair<int, int>& end) const {
+        double distance = Utility::calculate_distance(start, end);
+        return base_fare + (distance * per_km_rate);
     }
 };
 
