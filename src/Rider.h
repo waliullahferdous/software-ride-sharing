@@ -2,13 +2,13 @@
 #define RIDER_H
 
 #include <string>
+#include <utility> // For std::pair
 
 class Rider {
 private:
     std::string rider_id;
     std::string name;
-    std::string pickup_location;
-    std::string dropoff_location;
+    std::pair<int, int> pickup_location; // Coordinates (x, y)
 
 public:
     // Constructor
@@ -16,13 +16,12 @@ public:
         : rider_id(id), name(rider_name) {}
 
     // Methods
-    void request_ride(std::string pickup, std::string dropoff);
+    void set_pickup_location(int x, int y) { pickup_location = {x, y}; }
+    std::pair<int, int> get_pickup_location() const { return pickup_location; }
 
     // Getters
     std::string get_rider_id() const { return rider_id; }
     std::string get_name() const { return name; }
-    std::string get_pickup_location() const { return pickup_location; }
-    std::string get_dropoff_location() const { return dropoff_location; }
 };
 
 #endif

@@ -1,6 +1,5 @@
 #include "SystemManager.h"
 #include "Utility.h"
-#include <limits> // For std::numeric_limits
 
 void SystemManager::add_driver(Driver driver) {
     active_drivers.push_back(driver);
@@ -18,14 +17,12 @@ void SystemManager::match_ride() {
         return;
     }
 
-    // Iterate through all active requests
     for (RideRequest& request : active_requests) {
         auto rider_location = request.get_pickup_location();
 
         double min_distance = std::numeric_limits<double>::max();
         Driver* best_driver = nullptr;
 
-        // Find the closest driver
         for (Driver& driver : active_drivers) {
             if (!driver.is_available()) continue;
 
@@ -37,7 +34,7 @@ void SystemManager::match_ride() {
         }
 
         if (best_driver) {
-            best_driver->toggle_availability(); // Mark the driver as unavailable
+            best_driver->toggle_availability();
             request.assign_driver(best_driver->get_driver_id());
             request.update_status(Status::Assigned);
             logger.log_event("Matched RideRequest " + request.get_request_id() +
@@ -48,7 +45,6 @@ void SystemManager::match_ride() {
         }
     }
 
-    // Clear the list of active requests
     active_requests.clear();
 }
 

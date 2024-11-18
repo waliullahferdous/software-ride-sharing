@@ -1,57 +1,36 @@
-#include <iostream>
-#include <string>
 #include "Driver.h"
 #include "Rider.h"
 #include "RideRequest.h"
+#include "SystemManager.h"
 
 int main() {
-    // Create Drivers
-    Driver driver1("DR001", "Alice", {0, 0});
-    Driver driver2("DR002", "Bob", {5, 5});
+    SystemManager manager;
 
-    // Create Riders
-    Rider rider1("RD001", "Charlie", {1, 1});
-    Rider rider2("RD002", "Dave", {10, 10});
+    Driver driver1("D001", "Alice", "Downtown");
+    driver1.set_location(0, 0);
+    manager.add_driver(driver1);
 
-    // Create Ride Requests
-    RideRequest request1("REQ001", rider1.get_rider_id(), rider1.get_pickup_location(), {2, 2});
-    RideRequest request2("REQ002", rider2.get_rider_id(), rider2.get_pickup_location(), {8, 8});
+    Driver driver2("D002", "Bob", "Uptown");
+    driver2.set_location(5, 5);
+    manager.add_driver(driver2);
 
-    // Display Drivers
-    std::cout << "Drivers:" << std::endl;
-    std::cout << "Driver 1: " << driver1.get_name() << " at " << driver1.get_location().first
-              << ", " << driver1.get_location().second << std::endl;
-    std::cout << "Driver 2: " << driver2.get_name() << " at " << driver2.get_location().first
-              << ", " << driver2.get_location().second << std::endl;
+    Driver driver3("D003", "Charlie", "Suburb");
+    driver3.set_location(10, 10);
+    manager.add_driver(driver3);
 
-    // Display Riders
-    std::cout << "\nRiders:" << std::endl;
-    std::cout << "Rider 1: " << rider1.get_name() << " at " << rider1.get_pickup_location().first
-              << ", " << rider1.get_pickup_location().second << std::endl;
-    std::cout << "Rider 2: " << rider2.get_name() << " at " << rider2.get_pickup_location().first
-              << ", " << rider2.get_pickup_location().second << std::endl;
+    Rider rider1("R001", "David");
+    rider1.set_pickup_location(1, 1);
 
-    // Process Ride Requests
-    std::cout << "\nRide Requests:" << std::endl;
-    std::cout << "Request 1: Rider " << request1.get_rider_id() << " from ("
-              << request1.get_pickup_location().first << ", " << request1.get_pickup_location().second
-              << ") to (" << request1.get_dropoff_location().first << ", "
-              << request1.get_dropoff_location().second << ")" << std::endl;
+    Rider rider2("R002", "Eve");
+    rider2.set_pickup_location(6, 6);
 
-    std::cout << "Request 2: Rider " << request2.get_rider_id() << " from ("
-              << request2.get_pickup_location().first << ", " << request2.get_pickup_location().second
-              << ") to (" << request2.get_dropoff_location().first << ", "
-              << request2.get_dropoff_location().second << ")" << std::endl;
+    RideRequest request1("REQ001", rider1.get_rider_id(), rider1.get_pickup_location(), "Library");
+    RideRequest request2("REQ002", rider2.get_rider_id(), rider2.get_pickup_location(), "Museum");
 
-    // Update and Display Driver Locations
-    driver1.update_location({2, 2});
-    driver2.update_location({8, 8});
+    manager.add_request(request1);
+    manager.add_request(request2);
 
-    std::cout << "\nUpdated Driver Locations:" << std::endl;
-    std::cout << "Driver 1: " << driver1.get_name() << " at " << driver1.get_location().first
-              << ", " << driver1.get_location().second << std::endl;
-    std::cout << "Driver 2: " << driver2.get_name() << " at " << driver2.get_location().first
-              << ", " << driver2.get_location().second << std::endl;
+    manager.match_ride();
 
     return 0;
 }

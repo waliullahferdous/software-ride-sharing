@@ -1,4 +1,5 @@
 #include "RideRequest.h"
+#include <iostream>
 
 // Assign a driver to the ride request
 void RideRequest::assign_driver(std::string driver) {
