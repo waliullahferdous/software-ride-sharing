@@ -1,49 +1,66 @@
-[EVENT] 2024-11-18 13:21:25 - Driver Alice added to the system.
-[EVENT] 2024-11-18 13:21:25 - Driver Bob added to the system.
-[EVENT] 2024-11-18 13:21:25 - Driver Charlie added to the system.
-[EVENT] 2024-11-18 13:21:25 - Ride request REQ001 added to the system.
-[EVENT] 2024-11-18 13:21:25 - Ride request REQ002 added to the system.
-[EVENT] 2024-11-18 13:21:25 - Matched RideRequest REQ001 with Driver D001 (distance: 1.414214)
-[EVENT] 2024-11-18 13:21:25 - Matched RideRequest REQ002 with Driver D002 (distance: 1.414214)
-[EVENT] 2024-11-18 13:27:13 - Driver Alice added to the system.
-[EVENT] 2024-11-18 13:27:13 - Driver Bob added to the system.
-[EVENT] 2024-11-18 13:27:13 - Ride request REQ001 added to the system.
-[EVENT] 2024-11-18 13:27:13 - Ride request REQ002 added to the system.
-[EVENT] 2024-11-18 13:27:13 - Matched RideRequest REQ001 with Driver D001 (distance: 1.414214, fare: $5.000000)
-[EVENT] 2024-11-18 13:27:13 - Matched RideRequest REQ002 with Driver D002 (distance: 1.414214, fare: $5.000000)
-[EVENT] 2024-11-18 13:31:44 - Driver Alice added to the system.
-[EVENT] 2024-11-18 13:31:44 - Driver Bob added to the system.
-[EVENT] 2024-11-18 13:31:44 - Ride request REQ001 added to the system.
-[EVENT] 2024-11-18 13:31:44 - Ride request REQ002 added to the system.
-[EVENT] 2024-11-18 13:31:44 - Matched RideRequest REQ001 with Driver Alice (distance: 1.41, fare: $5.00)
-[EVENT] 2024-11-18 13:31:44 - Matched RideRequest REQ002 with Driver Bob (distance: 1.41, fare: $5.00)
-[EVENT] 2024-11-18 13:43:37 - Driver Alice added to the system.
-[EVENT] 2024-11-18 13:43:37 - Driver Bob added to the system.
-[EVENT] 2024-11-18 13:43:37 - Ride request REQ001 added to the system.
-[EVENT] 2024-11-18 13:43:37 - Ride request REQ002 added to the system.
-[EVENT] 2024-11-18 13:43:37 - Matched RideRequest REQ001 with Driver Alice (driver-to-pickup distance: 1.41, fare: $10.66)
-[EVENT] 2024-11-18 13:43:37 - Matched RideRequest REQ002 with Driver Bob (driver-to-pickup distance: 1.41, fare: $10.66)
-[EVENT] 2024-11-18 13:44:11 - Driver Alice added to the system.
-[EVENT] 2024-11-18 13:44:11 - Driver Bob added to the system.
-[EVENT] 2024-11-18 13:44:11 - Ride request REQ001 added to the system.
-[EVENT] 2024-11-18 13:44:11 - Ride request REQ002 added to the system.
-[EVENT] 2024-11-18 13:44:11 - Matched RideRequest REQ001 with Driver Alice (driver-to-pickup distance: 1.41, fare: $10.66)
-[EVENT] 2024-11-18 13:44:11 - Matched RideRequest REQ002 with Driver Bob (driver-to-pickup distance: 1.41, fare: $10.66)
-[EVENT] 2024-11-18 13:54:57 - Driver Alice added to the system.
-[EVENT] 2024-11-18 13:54:57 - Driver Bob added to the system.
-[EVENT] 2024-11-18 13:54:57 - Ride request REQ001 added to the system.
-[EVENT] 2024-11-18 13:54:57 - Ride request REQ002 added to the system.
-[EVENT] 2024-11-18 13:54:57 - Matched RideRequest REQ001 with Driver Alice (driver-to-pickup distance: 1.41, fare: $10.66)
-[EVENT] 2024-11-18 13:54:57 - Matched RideRequest REQ002 with Driver Bob (driver-to-pickup distance: 1.41, fare: $10.66)
-[EVENT] 2024-11-18 13:57:33 - Driver Alice added to the system.
-[EVENT] 2024-11-18 13:57:33 - Driver Bob added to the system.
-[EVENT] 2024-11-18 13:57:33 - Ride request REQ001 added to the system.
-[EVENT] 2024-11-18 13:57:33 - Ride request REQ002 added to the system.
-[EVENT] 2024-11-18 13:57:33 - Matched RideRequest REQ001 with Driver Alice (driver-to-pickup distance: 2.83, fare: $13.49)
-[EVENT] 2024-11-18 13:57:33 - Matched RideRequest REQ002 with Driver Bob (driver-to-pickup distance: 2.83, fare: $13.49)
-[EVENT] 2024-11-18 13:59:01 - Driver Alice added to the system.
-[EVENT] 2024-11-18 13:59:01 - Driver Bob added to the system.
-[EVENT] 2024-11-18 13:59:01 - Ride request REQ001 added to the system.
-[EVENT] 2024-11-18 13:59:01 - Ride request REQ002 added to the system.
-[EVENT] 2024-11-18 13:59:01 - Matched RideRequest REQ001 with Driver Alice (driver-to-pickup distance: 2.83, fare: $13.49)
-[EVENT] 2024-11-18 13:59:01 - Matched RideRequest REQ002 with Driver Bob (driver-to-pickup distance: 2.83, fare: $21.97)
+[EVENT] 2024-11-18 15:23:30 - Driver Alice added to the system.
+[EVENT] 2024-11-18 15:23:30 - Ride request REQ001 added to the system.
+[EVENT] 2024-11-18 15:23:30 - Matched RideRequest REQ001 with Driver Alice (driver-to-pickup distance: 2.83, pickup-to-dropoff distance: 4.24, fare: $13.49)
+[EVENT] 2024-11-18 15:23:30 - Ride REQ001 cancelled by Rider after starting.
+[EVENT] 2024-11-18 15:23:30 - Ride request REQ002 added to the system.
+[EVENT] 2024-11-18 15:23:30 - Matched RideRequest REQ002 with Driver Alice (driver-to-pickup distance: 14.14, pickup-to-dropoff distance: 7.07, fare: $19.14)
+[EVENT] 2024-11-18 15:23:30 - Ride REQ002 cancelled by Driver before starting.
+[EVENT] 2024-11-18 15:23:30 - Ride request REQ003 added to the system.
+[EVENT] 2024-11-18 15:23:30 - Matched RideRequest REQ003 with Driver Alice (driver-to-pickup distance: 4.24, pickup-to-dropoff distance: 8.49, fare: $21.97)
+[EVENT] 2024-11-18 15:23:30 - Ride REQ003 completed.
+[EVENT] 2024-11-18 15:32:34 - Driver Alice added to the system.
+[EVENT] 2024-11-18 15:32:34 - Ride request REQ001 added to the system by Rider Charlie.
+[EVENT] 2024-11-18 15:32:34 - Matched RideRequest REQ001 with Driver Alice (driver-to-pickup distance: 2.83, pickup-to-dropoff distance: 4.24, fare: $13.49)
+[EVENT] 2024-11-18 15:32:34 - Ride REQ001 cancelled by Rider after starting.
+[EVENT] 2024-11-18 15:32:34 - Ride request REQ002 added to the system by Rider David.
+[EVENT] 2024-11-18 15:32:34 - Matched RideRequest REQ002 with Driver Alice (driver-to-pickup distance: 14.14, pickup-to-dropoff distance: 7.07, fare: $19.14)
+[EVENT] 2024-11-18 15:32:34 - Ride REQ002 cancelled by Driver before starting.
+[EVENT] 2024-11-18 15:32:34 - Ride request REQ003 added to the system by Rider Eve.
+[EVENT] 2024-11-18 15:32:34 - Matched RideRequest REQ003 with Driver Alice (driver-to-pickup distance: 4.24, pickup-to-dropoff distance: 8.49, fare: $21.97)
+[EVENT] 2024-11-18 15:32:34 - Ride REQ003 completed.
+[EVENT] 2024-11-18 15:40:24 - Driver D001 (Alice) added to the system.
+[EVENT] 2024-11-18 15:40:24 - Ride request REQ001 added to the system by Rider Charlie (Charlie).
+[EVENT] 2024-11-18 15:40:24 - Matched RideRequest REQ001 with Driver D001 (Alice)  (driver-to-pickup distance: 2.83, pickup-to-dropoff distance: 4.24, fare: $13.49)
+[EVENT] 2024-11-18 15:40:24 - Ride REQ001 cancelled by Rider after starting.
+[EVENT] 2024-11-18 15:40:24 - Ride request REQ002 added to the system by Rider David (David).
+[EVENT] 2024-11-18 15:40:24 - Matched RideRequest REQ002 with Driver D001 (Alice)  (driver-to-pickup distance: 14.14, pickup-to-dropoff distance: 7.07, fare: $19.14)
+[EVENT] 2024-11-18 15:40:24 - Ride REQ002 cancelled by Driver before starting.
+[EVENT] 2024-11-18 15:40:24 - Ride request REQ003 added to the system by Rider Eve (Eve).
+[EVENT] 2024-11-18 15:40:24 - Matched RideRequest REQ003 with Driver D001 (Alice)  (driver-to-pickup distance: 4.24, pickup-to-dropoff distance: 8.49, fare: $21.97)
+[EVENT] 2024-11-18 15:40:24 - Ride REQ003 completed.
+[EVENT] 2024-11-18 15:45:58 - Driver D001 (Alice) added to the system.
+[EVENT] 2024-11-18 15:45:58 - Driver D002 (Bob) added to the system.
+[EVENT] 2024-11-18 15:45:58 - Driver D003 (Charlie) added to the system.
+[EVENT] 2024-11-18 15:45:58 - Ride request REQ001 added to the system by Rider Charlie (Charlie).
+[EVENT] 2024-11-18 15:45:58 - Matched RideRequest REQ001 with Driver D001 (Alice)  (driver-to-pickup distance: 2.83, pickup-to-dropoff distance: 4.24, fare: $13.49)
+[EVENT] 2024-11-18 15:45:58 - Ride REQ001 cancelled by Rider after starting.
+[EVENT] 2024-11-18 15:45:58 - Ride request REQ002 added to the system by Rider David (David).
+[EVENT] 2024-11-18 15:45:58 - Matched RideRequest REQ002 with Driver D003 (Charlie)  (driver-to-pickup distance: 0.00, pickup-to-dropoff distance: 7.07, fare: $19.14)
+[EVENT] 2024-11-18 15:45:58 - Ride REQ002 cancelled by Driver before starting.
+[EVENT] 2024-11-18 15:45:58 - Ride request REQ003 added to the system by Rider Eve (Eve).
+[EVENT] 2024-11-18 15:45:58 - Matched RideRequest REQ003 with Driver D002 (Bob)  (driver-to-pickup distance: 2.83, pickup-to-dropoff distance: 7.07, fare: $19.14)
+[EVENT] 2024-11-18 15:45:58 - Ride REQ003 completed.
+[EVENT] 2024-11-18 15:50:35 - Driver D001 (Alice) added to the system.
+[EVENT] 2024-11-18 15:50:35 - Driver D002 (Bob) added to the system.
+[EVENT] 2024-11-18 15:50:35 - Driver D003 (Charlie) added to the system.
+[EVENT] 2024-11-18 15:50:35 - Ride request REQ001 added to the system by Rider R001 (R001).
+[EVENT] 2024-11-18 15:50:35 - Matched RideRequest REQ001 with Driver D001 (Alice)  (driver-to-pickup distance: 2.83, pickup-to-dropoff distance: 4.24, fare: $13.49)
+[EVENT] 2024-11-18 15:50:35 - Ride REQ001 cancelled by Rider after starting.
+[EVENT] 2024-11-18 15:50:35 - Ride request REQ002 added to the system by Rider R002 (R002).
+[EVENT] 2024-11-18 15:50:35 - Matched RideRequest REQ002 with Driver D003 (Charlie)  (driver-to-pickup distance: 0.00, pickup-to-dropoff distance: 7.07, fare: $19.14)
+[EVENT] 2024-11-18 15:50:35 - Ride REQ002 cancelled by Driver before starting.
+[EVENT] 2024-11-18 15:50:35 - Ride request REQ003 added to the system by Rider R003 (R003).
+[EVENT] 2024-11-18 15:50:35 - Matched RideRequest REQ003 with Driver D002 (Bob)  (driver-to-pickup distance: 2.83, pickup-to-dropoff distance: 7.07, fare: $19.14)
+[EVENT] 2024-11-18 15:50:35 - Ride REQ003 completed.
+[EVENT] 2024-11-18 15:51:35 - Driver D001 (Alice) added to the system.
+[EVENT] 2024-11-18 15:51:35 - Driver D002 (Bob) added to the system.
+[EVENT] 2024-11-18 15:51:35 - Driver D003 (Charlie) added to the system.
+[EVENT] 2024-11-18 15:51:35 - Ride request REQ001 added to the system by Rider R001 (Charlie).
+[EVENT] 2024-11-18 15:51:35 - Matched RideRequest REQ001 with Driver D001 (Alice)  (driver-to-pickup distance: 2.83, pickup-to-dropoff distance: 4.24, fare: $13.49)
+[EVENT] 2024-11-18 15:51:35 - Ride REQ001 cancelled by Rider after starting.
+[EVENT] 2024-11-18 15:51:35 - Ride request REQ002 added to the system by Rider R002 (David).
+[EVENT] 2024-11-18 15:51:35 - Matched RideRequest REQ002 with Driver D003 (Charlie)  (driver-to-pickup distance: 0.00, pickup-to-dropoff distance: 7.07, fare: $19.14)
+[EVENT] 2024-11-18 15:51:35 - Ride REQ002 cancelled by Driver before starting.
+[EVENT] 2024-11-18 15:51:35 - Ride request REQ003 added to the system by Rider R003 (Eve).
+[EVENT] 2024-11-18 15:51:35 - Matched RideRequest REQ003 with Driver D002 (Bob)  (driver-to-pickup distance: 2.83, pickup-to-dropoff distance: 7.07, fare: $19.14)
+[EVENT] 2024-11-18 15:51:35 - Ride REQ003 completed.
