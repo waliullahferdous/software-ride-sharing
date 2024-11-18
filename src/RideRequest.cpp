@@ -20,8 +20,10 @@ void RideRequest::start_ride() {
 
     status = Status::Started;
     start_time = std::chrono::system_clock::now();
-    std::cout << "Ride " << request_id << " started." << std::endl;
+
+    std::cout << "[EVENT] Ride " << request_id << " started for Rider " << rider_id << " (" << rider_name << ")." << std::endl;
 }
+
 
 void RideRequest::complete_ride() {
     if (status != Status::Started) {

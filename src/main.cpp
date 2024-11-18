@@ -16,9 +16,6 @@ int main() {
     driver2.set_location(5, 5);
     manager.add_driver(driver2);
 
-    Driver driver3("D003", "Charlie");
-    driver3.set_location(10, 10);
-    manager.add_driver(driver3);
 
     // First ride: Cancelled after starting by Rider
     auto request1 = std::make_shared<RideRequest>("REQ001", "R001", "Charlie", std::make_pair(2, 2), std::make_pair(5, 5));
@@ -28,21 +25,25 @@ int main() {
     request1->start_ride();
     manager.cancel_ride("REQ001", "Rider", true);
 
-    // Second ride: Cancelled before starting by Driver
-    auto request2 = std::make_shared<RideRequest>("REQ002", "R002", "David", std::make_pair(10, 10), std::make_pair(15, 15));
+    // Second ride: Successfully completed
+    auto request2 = std::make_shared<RideRequest>("REQ002", "R002", "Eve", std::make_pair(3, 3), std::make_pair(8, 8));
     manager.add_request(request2);
 
     manager.match_ride();
-    manager.cancel_ride("REQ002", "Driver", false);
+    request2->start_ride();
+    manager.complete_ride("REQ002");
 
-    // Third ride: Successfully completed
-    auto request3 = std::make_shared<RideRequest>("REQ003", "R003", "Eve", std::make_pair(3, 3), std::make_pair(8, 8));
+
+
+
+    // Third ride: Cancelled before starting by Driver
+    auto request3 = std::make_shared<RideRequest>("REQ003", "R003", "David", std::make_pair(10, 10), std::make_pair(15, 15));
     manager.add_request(request3);
 
     manager.match_ride();
-    request3->start_ride();
-    manager.complete_ride("REQ003");
+    manager.cancel_ride("REQ003", "Driver", false);
 
     return 0;
+
 }
 

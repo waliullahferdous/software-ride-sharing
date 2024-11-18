@@ -85,22 +85,43 @@ void SystemManager::cancel_ride(const std::string& ride_id, const std::string& b
         return;
     }
 
-    // Reset driver availability if assigned
-    if (request->get_status() == Status::Assigned || request->get_status() == Status::Started) {
-        for (Driver& driver : active_drivers) {
-            if (driver.get_driver_id() == request->get_driver_id()) {
-                driver.complete_ride(); // Mark driver as available
-                break;
-            }
+    Driver* assigned_driver = nullptr;
+
+    // Find the assigned driver
+    for (Driver& driver : active_drivers) {
+        if (driver.get_driver_id() == request->get_driver_id()) {
+            assigned_driver = &driver;
+            break;
         }
     }
 
-    request->cancel_ride(by_whom, after_start);
-    canceled_rides.push_back(request);
+    if (assigned_driver) {
+        // Log cancellation event
+        request->cancel_ride(by_whom, after_start);
+        canceled_rides.push_back(request);
 
-    logger.log_event("Ride " + ride_id + " cancelled by " + by_whom +
-                     (after_start ? " after starting." : " before starting."));
+        logger.log_event("Ride " + ride_id + " cancelled by " + by_whom +
+                         (after_start ? " after starting." : " before starting."));
+
+        // Update driver's location based on cancellation scenario
+        if (after_start) {
+            assigned_driver->set_location(request->get_pickup_location().first, request->get_pickup_location().second);
+            logger.log_event("Driver " + assigned_driver->get_driver_id() + " (" + assigned_driver->get_name() + 
+                             ") location updated to " + ride_id + " pickup point (" + 
+                             std::to_string(request->get_pickup_location().first) + ", " + 
+                             std::to_string(request->get_pickup_location().second) + ").");
+        } else {
+            logger.log_event("Driver " + assigned_driver->get_driver_id() + " (" + assigned_driver->get_name() + 
+                             ") location remains unchanged.");
+        }
+
+        assigned_driver->complete_ride(); // Mark driver as available
+    } else {
+        logger.log_error("No assigned driver found for Ride " + ride_id);
+    }
 }
+
+
 
 void SystemManager::complete_ride(const std::string& ride_id) {
     auto request = find_request_by_id(ride_id);
@@ -109,16 +130,42 @@ void SystemManager::complete_ride(const std::string& ride_id) {
         return;
     }
 
-    request->complete_ride();
+    Driver* assigned_driver = nullptr;
 
-    // Move to completed rides
-    completed_rides.push_back(request);
+    // Find the assigned driver
+    for (Driver& driver : active_drivers) {
+        if (driver.get_driver_id() == request->get_driver_id()) {
+            assigned_driver = &driver;
+            break;
+        }
+    }
 
-    // Remove from active rides
-    active_requests.erase(std::remove(active_requests.begin(), active_requests.end(), request), active_requests.end());
+    if (assigned_driver) {
+        // Log ride completion event
+        request->complete_ride();
 
-    logger.log_event("Ride " + ride_id + " completed.");
+        // Move to completed rides
+        completed_rides.push_back(request);
+
+        // Remove from active rides
+        active_requests.erase(std::remove(active_requests.begin(), active_requests.end(), request), active_requests.end());
+
+        logger.log_event("Ride " + ride_id + " completed.");
+
+        // Update driver's location to the drop-off point
+        assigned_driver->set_location(request->get_dropoff_location().first, request->get_dropoff_location().second);
+        logger.log_event("Driver " + assigned_driver->get_driver_id() + " (" + assigned_driver->get_name() + 
+                         ") location updated to " + ride_id + " drop-off point (" + 
+                         std::to_string(request->get_dropoff_location().first) + ", " + 
+                         std::to_string(request->get_dropoff_location().second) + ").");
+
+        assigned_driver->complete_ride(); // Mark driver as available
+    } else {
+        logger.log_error("No assigned driver found for Ride " + ride_id);
+    }
 }
+
+
 
 std::shared_ptr<RideRequest> SystemManager::find_request_by_id(const std::string& ride_id) {
     auto it = std::find_if(active_requests.begin(), active_requests.end(),
