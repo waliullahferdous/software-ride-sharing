@@ -16,7 +16,7 @@ struct DriverNode {
 void SystemManager::add_driver(const Driver& driver) {
     active_drivers.push_back(driver);
 
-    std::string query = "INSERT INTO Drivers (driver_id, name, location_x, location_y, availability) VALUES ('" +
+    std::string query = "INSERT OR REPLACE INTO Drivers (driver_id, name, location_x, location_y, availability) VALUES ('" +
                         driver.get_driver_id() + "', '" + driver.get_name() + "', " +
                         std::to_string(driver.get_location().first) + ", " +
                         std::to_string(driver.get_location().second) + ", " +
@@ -34,7 +34,7 @@ void SystemManager::add_request(std::shared_ptr<RideRequest> request) {
     active_requests.push_back(request);
 
     // Insert the rider if not already in the database
-    std::string rider_query = "INSERT OR IGNORE INTO Riders (rider_id, name) VALUES ('" +
+    std::string rider_query = "INSERT OR REPLACE INTO Riders (rider_id, name) VALUES ('" +
                               request->get_rider_id() + "', '" + request->get_rider_name() + "');";
 
     if (!db_manager.execute_query(rider_query)) {
@@ -42,7 +42,7 @@ void SystemManager::add_request(std::shared_ptr<RideRequest> request) {
     }
 
     // Insert the ride request into the database
-    std::string ride_query = "INSERT INTO RideRequests (request_id, rider_id, pickup_x, pickup_y, dropoff_x, dropoff_y, status) VALUES ('" +
+    std::string ride_query = "INSERT OR REPLACE INTO RideRequests (request_id, rider_id, pickup_x, pickup_y, dropoff_x, dropoff_y, status) VALUES ('" +
                              request->get_request_id() + "', '" + request->get_rider_id() + "', " +
                              std::to_string(request->get_pickup_location().first) + ", " +
                              std::to_string(request->get_pickup_location().second) + ", " +
@@ -52,7 +52,7 @@ void SystemManager::add_request(std::shared_ptr<RideRequest> request) {
     if (!db_manager.execute_query(ride_query)) {
         db_manager.log_error("Failed to insert ride request " + request->get_request_id());
     } else {
-        logger.log_event("Ride request " + request->get_request_id() + " added to the system and database.");
+        logger.log_event("Ride request " + request->get_request_id() + " added to the system and database by " + request->get_rider_name() + ".");
     }
 }
 
