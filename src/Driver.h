@@ -22,6 +22,7 @@ public:
     void set_location(int x, int y) { current_location = {x, y}; }
     std::pair<int, int> get_location() const { return current_location; }
     void toggle_availability() { availability_status = !availability_status; }
+    void set_availability(bool available) { availability_status = available; }
     bool is_available() const { return availability_status && can_accept_ride(); }
     bool can_accept_ride() const { return current_rides < ride_limit; }
     void accept_ride() { current_rides++; }

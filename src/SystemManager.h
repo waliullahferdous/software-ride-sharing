@@ -8,6 +8,8 @@
 #include "RideRequest.h"
 #include "Logger.h"
 #include "FareCalculator.h"
+#include <fstream>
+#include <sstream>
 
 class SystemManager {
 private:
@@ -24,6 +26,7 @@ public:
     }
 
     void add_driver(const Driver& driver);
+    void add_rider(const std::string& rider_id, const std::string& name);
     void add_request(std::shared_ptr<RideRequest> request);
     void match_ride();
 
@@ -31,8 +34,19 @@ public:
     void cancel_ride(const std::string& ride_id, const std::string& by_whom, bool after_start);
     void complete_ride(const std::string& ride_id);
 
+    void load_drivers_from_file(const std::string& filename);
+    void load_riders_from_file(const std::string& filename);
+    void load_rides_from_file(const std::string& filename);
+
     // Helpers
     std::shared_ptr<RideRequest> find_request_by_id(const std::string& ride_id);
+
+    // Add getter for active requests
+    const std::vector<std::shared_ptr<RideRequest>>& get_active_requests() const {
+        return active_requests;
+    }
+
+
 };
 
 #endif

@@ -16,6 +16,8 @@ public:
     bool execute_query(const std::string& query);
     bool initialize_schema();
 
+    sqlite3* get_db() const { return db; }
+
     // Utility to log errors
     void log_error(const std::string& msg);
 };

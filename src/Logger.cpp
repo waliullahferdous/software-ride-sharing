@@ -8,6 +8,27 @@ std::string Logger::get_timestamp() const {
     return std::string(buf);
 }
 
+// Constructor with reset option
+Logger::Logger(const std::string& file, bool reset) : log_file(file) {
+    // Open file in truncate mode if reset is true
+    if (reset) {
+        file_stream.open(log_file, std::ios::trunc);
+    } else {
+        file_stream.open(log_file, std::ios::app);
+    }
+
+    if (!file_stream.is_open()) {
+        std::cerr << "Failed to open log file: " << log_file << std::endl;
+    }
+}
+
+// Destructor
+Logger::~Logger() {
+    if (file_stream.is_open()) {
+        file_stream.close();
+    }
+}
+
 // Log a general event
 void Logger::log_event(const std::string& event) {
     std::string message = "[EVENT] " + get_timestamp() + " - " + event;
@@ -27,4 +48,5 @@ void Logger::log_error(const std::string& error) {
         file_stream << message << std::endl;
     }
 }
+
 

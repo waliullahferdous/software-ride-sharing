@@ -1,49 +1,78 @@
-#include "Driver.h"
-#include "Rider.h"
-#include "RideRequest.h"
 #include "SystemManager.h"
-#include <memory> // For std::shared_ptr
+#include <memory>
+#include <thread>
+#include <chrono>
+#include <iostream>
+#include <cstdlib> // For rand()
+#include <ctime>   // For seeding rand()
+
+// Simulates delay for better readability of logs
+void delay() {
+    std::this_thread::sleep_for(std::chrono::milliseconds(500));
+}
+
+// Processes a ride randomly (complete, cancel before/after starting)
+void process_random_ride(SystemManager& manager, std::shared_ptr<RideRequest> request) {
+    if (!request) return;
+
+    auto status = request->get_status();
+    if (status == Status::Completed || status == Status::CancelledBeforeStart || status == Status::CancelledAfterStart) {
+        std::cout << "[INFO] Ride " << request->get_request_id() << " already processed. Skipping.\n";
+        return; // Skip already processed rides
+    }
+
+    // Randomize actions: 0 = cancel before starting, 1 = cancel after starting, 2 = complete
+    int action = rand() % 3; // Random number between 0 and 2
+    std::string by_whom = (rand() % 2 == 0) ? "Rider" : "Driver"; // Randomly decide who cancels
+
+    if (status == Status::Started) {
+        if (action == 0) {
+            // Cancel before starting
+            delay();
+            manager.cancel_ride(request->get_request_id(), by_whom, false);
+        } else if (action == 1) {
+            // Start and then cancel after starting
+            request->start_ride();
+            delay();
+            manager.cancel_ride(request->get_request_id(), by_whom, true);
+        } else {
+            // Complete the ride
+            request->start_ride();
+            delay();
+            manager.complete_ride(request->get_request_id());
+        }
+    } else {
+        std::cout << "[INFO] Ride " << request->get_request_id() << " could not be processed in its current state.\n";
+    }
+}
+
 
 int main() {
+    srand(static_cast<unsigned int>(time(nullptr))); // Seed for randomness
+
     SystemManager manager;
 
-    // Add drivers
-    Driver driver1("D001", "Alice");
-    driver1.set_location(0, 0);
-    manager.add_driver(driver1);
+    // Load data
+    manager.load_drivers_from_file("drivers.txt");
+    manager.load_riders_from_file("riders.txt");
+    manager.load_rides_from_file("rides.txt");
 
-    Driver driver2("D002", "Bob");
-    driver2.set_location(5, 5);
-    manager.add_driver(driver2);
+    // Automatically process all rides
+    while (!manager.get_active_requests().empty()) {
+        delay();
+        manager.match_ride();
 
+        // Get all active ride requests
+        std::vector<std::shared_ptr<RideRequest>> active_requests = manager.get_active_requests();
 
-    // First ride: Cancelled after starting by Rider
-    auto request1 = std::make_shared<RideRequest>("REQ001", "R001", "Charlie", std::make_pair(2, 2), std::make_pair(5, 5));
-    manager.add_request(request1);
+        if (active_requests.empty()) break; // Exit loop if no active rides remain
 
-    manager.match_ride();
-    request1->start_ride();
-    manager.cancel_ride("REQ001", "Rider", true);
-
-    // Second ride: Successfully completed
-    auto request2 = std::make_shared<RideRequest>("REQ002", "R002", "Eve", std::make_pair(3, 3), std::make_pair(8, 8));
-    manager.add_request(request2);
-
-    manager.match_ride();
-    request2->start_ride();
-    manager.complete_ride("REQ002");
-
-
-
-
-    // Third ride: Cancelled before starting by Driver
-    auto request3 = std::make_shared<RideRequest>("REQ003", "R003", "David", std::make_pair(10, 10), std::make_pair(15, 15));
-    manager.add_request(request3);
-
-    manager.match_ride();
-    manager.cancel_ride("REQ003", "Driver", false);
+        for (auto& request : active_requests) {
+            delay();
+            process_random_ride(manager, request);
+        }
+    }
 
     return 0;
-
 }
 

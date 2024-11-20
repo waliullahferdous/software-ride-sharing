@@ -13,6 +13,101 @@ struct DriverNode {
     }
 };
 
+
+void SystemManager::load_drivers_from_file(const std::string& filename) {
+    std::ifstream file(filename);
+    if (!file.is_open()) {
+        std::cerr << "Error: Unable to open file " << filename << std::endl;
+        return;
+    }
+
+    std::string line;
+    while (std::getline(file, line)) {
+        std::stringstream ss(line);
+        std::string driver_id, name;
+        int location_x, location_y, availability;
+
+        std::getline(ss, driver_id, ',');
+        std::getline(ss, name, ',');
+        ss >> location_x;
+        ss.ignore(1); // Ignore comma
+        ss >> location_y;
+        ss.ignore(1); // Ignore comma
+        ss >> availability;
+
+        Driver driver(driver_id, name);
+        driver.set_location(location_x, location_y);
+        driver.set_availability(availability == 1); // Use set_availability
+        add_driver(driver);
+    }
+    file.close();
+}
+
+
+void SystemManager::load_riders_from_file(const std::string& filename) {
+    std::ifstream file(filename);
+    if (!file.is_open()) {
+        std::cerr << "Error: Unable to open file " << filename << std::endl;
+        return;
+    }
+
+    std::string line;
+    while (std::getline(file, line)) {
+        std::stringstream ss(line);
+        std::string rider_id, name;
+
+        std::getline(ss, rider_id, ',');
+        std::getline(ss, name, ',');
+
+        add_rider(rider_id, name);
+    }
+    file.close();
+}
+
+void SystemManager::load_rides_from_file(const std::string& filename) {
+    std::ifstream file(filename);
+    if (!file.is_open()) {
+        std::cerr << "Error: Unable to open file " << filename << std::endl;
+        return;
+    }
+
+    std::string line;
+    while (std::getline(file, line)) {
+        std::stringstream ss(line);
+        std::string request_id, rider_id;
+        int pickup_x, pickup_y, dropoff_x, dropoff_y;
+
+        std::getline(ss, request_id, ',');
+        std::getline(ss, rider_id, ',');
+        ss >> pickup_x;
+        ss.ignore(1); // Ignore comma
+        ss >> pickup_y;
+        ss.ignore(1); // Ignore comma
+        ss >> dropoff_x;
+        ss.ignore(1); // Ignore comma
+        ss >> dropoff_y;
+
+	// Fetch rider name from database
+        std::string rider_name;
+        std::string query = "SELECT name FROM Riders WHERE rider_id = '" + rider_id + "';";
+        sqlite3_stmt* stmt;
+
+        if (sqlite3_prepare_v2(db_manager.get_db(), query.c_str(), -1, &stmt, nullptr) == SQLITE_OK) {
+    	if (sqlite3_step(stmt) == SQLITE_ROW) {
+        rider_name = reinterpret_cast<const char*>(sqlite3_column_text(stmt, 0));
+    }
+    sqlite3_finalize(stmt);
+}  else {
+            db_manager.log_error("Failed to fetch rider name for Rider ID: " + rider_id);
+        }
+
+        auto request = std::make_shared<RideRequest>(request_id, rider_id, rider_name, std::make_pair(pickup_x, pickup_y), std::make_pair(dropoff_x, dropoff_y));
+        add_request(request);
+    }
+    file.close();
+}
+
+
 void SystemManager::add_driver(const Driver& driver) {
     active_drivers.push_back(driver);
 
@@ -26,6 +121,18 @@ void SystemManager::add_driver(const Driver& driver) {
         db_manager.log_error("Failed to insert driver " + driver.get_driver_id());
     } else {
         logger.log_event("Driver " + driver.get_driver_id() + " (" + driver.get_name() + ") added to the system and database.");
+    }
+}
+
+void SystemManager::add_rider(const std::string& rider_id, const std::string& name) {
+    // Insert the rider into the database
+    std::string query = "INSERT OR REPLACE INTO Riders (rider_id, name) VALUES ('" +
+                        rider_id + "', '" + name + "');";
+
+    if (!db_manager.execute_query(query)) {
+        db_manager.log_error("Failed to insert rider " + rider_id);
+    } else {
+        logger.log_event("Rider " + rider_id + " (" + name + ") added to the system and database.");
     }
 }
 
@@ -55,8 +162,6 @@ void SystemManager::add_request(std::shared_ptr<RideRequest> request) {
         logger.log_event("Ride request " + request->get_request_id() + " added to the system and database by " + request->get_rider_name() + ".");
     }
 }
-
-
 
 void SystemManager::match_ride() {
     if (active_drivers.empty() || active_requests.empty()) {
@@ -92,8 +197,12 @@ void SystemManager::match_ride() {
 
             best_driver->accept_ride();
             request->assign_driver(best_driver->get_driver_id());
-            request->update_status(Status::Assigned);
             request->set_fare(fare);
+
+            // Automatically start the ride
+            request->update_status(Status::Started);
+            logger.log_event("Ride " + request->get_request_id() + " started for Rider " +
+                             request->get_rider_id() + " (" + request->get_rider_name() + ").");
 
             logger.log_event("Matched RideRequest " + request->get_request_id() +
                              " with Driver " + best_driver->get_driver_id() + " (" + best_driver->get_name() + ") " +
@@ -105,9 +214,13 @@ void SystemManager::match_ride() {
         }
     }
 
-    // Keep all non-pending rides in active_requests
+    // Remove completed or canceled requests from active_requests
     active_requests.erase(std::remove_if(active_requests.begin(), active_requests.end(),
-                                         [](std::shared_ptr<RideRequest> r) { return r->get_status() == Status::Pending; }),
+                                         [](const std::shared_ptr<RideRequest>& r) {
+                                             return r->get_status() == Status::Completed ||
+                                                    r->get_status() == Status::CancelledBeforeStart ||
+                                                    r->get_status() == Status::CancelledAfterStart;
+                                         }),
                           active_requests.end());
 }
 
@@ -118,8 +231,20 @@ void SystemManager::cancel_ride(const std::string& ride_id, const std::string& b
         return;
     }
 
-    Driver* assigned_driver = nullptr;
+    // Handle Pending rides
+    if (request->get_status() == Status::Pending) {
+        request->update_status(Status::CancelledBeforeStart);
+        logger.log_event("Ride " + ride_id + " cancelled by " + by_whom + " before being assigned a driver.");
+        return;
+    }
 
+    // Validate Assigned or Started states for cancellation
+    if (request->get_status() != Status::Assigned && request->get_status() != Status::Started) {
+        logger.log_event("Ride " + ride_id + " could not be canceled in its current state.");
+        return;
+    }
+
+    Driver* assigned_driver = nullptr;
     for (Driver& driver : active_drivers) {
         if (driver.get_driver_id() == request->get_driver_id()) {
             assigned_driver = &driver;
@@ -128,16 +253,14 @@ void SystemManager::cancel_ride(const std::string& ride_id, const std::string& b
     }
 
     if (assigned_driver) {
-        request->cancel_ride(by_whom, after_start);
+        // Update ride status
+        request->update_status(after_start ? Status::CancelledAfterStart : Status::CancelledBeforeStart);
 
-        std::string status = after_start ? "CancelledAfterStart" : "CancelledBeforeStart";
-        std::string ride_update_query = "UPDATE RideRequests SET status = '" + status +
-                                        "' WHERE request_id = '" + request->get_request_id() + "';";
+        // Log the cancellation event
+        logger.log_event("Ride " + ride_id + " cancelled by " + by_whom +
+                         (after_start ? " after starting." : " before starting."));
 
-        if (!db_manager.execute_query(ride_update_query)) {
-            db_manager.log_error("Failed to update ride request " + ride_id);
-        }
-
+        // Handle location update after cancellation
         if (after_start) {
             assigned_driver->set_location(request->get_pickup_location().first, request->get_pickup_location().second);
             logger.log_event("Driver " + assigned_driver->get_driver_id() + " (" + assigned_driver->get_name() +
@@ -149,23 +272,23 @@ void SystemManager::cancel_ride(const std::string& ride_id, const std::string& b
                              ") location remains unchanged after cancellation.");
         }
 
-        assigned_driver->complete_ride(); // Mark driver as available
+        // Mark driver as available again
+        assigned_driver->complete_ride();
 
+        // Update driver location in the database
         std::string driver_update_query = "UPDATE Drivers SET location_x = " +
                                           std::to_string(assigned_driver->get_location().first) + ", location_y = " +
                                           std::to_string(assigned_driver->get_location().second) + ", availability = 1 WHERE driver_id = '" +
                                           assigned_driver->get_driver_id() + "';";
-
         if (!db_manager.execute_query(driver_update_query)) {
-            db_manager.log_error("Failed to update driver " + assigned_driver->get_driver_id());
+            logger.log_error("Failed to update driver " + assigned_driver->get_driver_id());
         }
-
-        logger.log_event("Ride " + ride_id + " cancelled by " + by_whom +
-                         (after_start ? " after starting." : " before starting."));
     } else {
-        logger.log_error("No assigned driver found for Ride " + ride_id);
+        logger.log_error("No assigned driver found for Ride " + ride_id + ".");
     }
 }
+
+
 
 
 void SystemManager::complete_ride(const std::string& ride_id) {
@@ -194,6 +317,8 @@ void SystemManager::complete_ride(const std::string& ride_id) {
             db_manager.log_error("Failed to update ride request " + ride_id);
         }
 
+	logger.log_event("Ride " + ride_id + " completed.");
+
         assigned_driver->set_location(request->get_dropoff_location().first, request->get_dropoff_location().second);
         logger.log_event("Driver " + assigned_driver->get_driver_id() + " (" + assigned_driver->get_name() + 
                          ") location updated to " + ride_id + " drop-off point (" +
@@ -210,18 +335,18 @@ void SystemManager::complete_ride(const std::string& ride_id) {
         if (!db_manager.execute_query(driver_update_query)) {
             db_manager.log_error("Failed to update driver " + assigned_driver->get_driver_id());
         }
-
-        logger.log_event("Ride " + ride_id + " completed.");
     } else {
         logger.log_error("No assigned driver found for Ride " + ride_id);
     }
 }
 
-
 std::shared_ptr<RideRequest> SystemManager::find_request_by_id(const std::string& ride_id) {
     auto it = std::find_if(active_requests.begin(), active_requests.end(),
-                           [&ride_id](std::shared_ptr<RideRequest> request) { return request->get_request_id() == ride_id; });
+                           [&ride_id](std::shared_ptr<RideRequest> request) {
+                               return request->get_request_id() == ride_id;
+                           });
 
     return (it != active_requests.end()) ? *it : nullptr;
 }
+
 

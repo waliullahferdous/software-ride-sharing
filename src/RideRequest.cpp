@@ -48,19 +48,21 @@ void RideRequest::complete_ride() {
 
 void RideRequest::cancel_ride(const std::string& by_whom, bool after_start) {
     if (after_start && status != Status::Started) {
-        std::cerr << "Error: Cannot cancel a ride after it has not started." << std::endl;
+        std::cerr << "Error: Cannot cancel a ride after starting if it has not started." << std::endl;
         return;
     }
     if (!after_start && status != Status::Assigned) {
-        std::cerr << "Error: Cannot cancel a ride before it has been assigned." << std::endl;
+        std::cerr << "Error: Cannot cancel a ride before starting if it has not been assigned." << std::endl;
         return;
     }
 
+    // Update the status based on the type of cancellation
     status = after_start ? Status::CancelledAfterStart : Status::CancelledBeforeStart;
 
     std::cout << "Ride " << request_id << " cancelled by " << by_whom
               << (after_start ? " after starting." : " before starting.") << std::endl;
 }
+
 
 void RideRequest::update_status(Status new_status) {
     if (status == Status::Completed || status == Status::CancelledBeforeStart || status == Status::CancelledAfterStart) {

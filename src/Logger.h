@@ -16,19 +16,10 @@ private:
 
 public:
     // Constructor
-    Logger(const std::string& file) : log_file(file) {
-        file_stream.open(log_file, std::ios::app);
-        if (!file_stream.is_open()) {
-            std::cerr << "Failed to open log file: " << log_file << std::endl;
-        }
-    }
+    Logger(const std::string& file, bool reset = true);
 
     // Destructor
-    ~Logger() {
-        if (file_stream.is_open()) {
-            file_stream.close();
-        }
-    }
+    ~Logger();
 
     // Log message
     void log_event(const std::string& event);
@@ -36,4 +27,5 @@ public:
 };
 
 #endif
+
 
