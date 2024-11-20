@@ -4,6 +4,7 @@
 #include <sqlite3.h>
 #include <string>
 #include <iostream>
+#include <vector>
 
 class DatabaseManager {
 private:
@@ -17,6 +18,9 @@ public:
     bool initialize_schema();
 
     sqlite3* get_db() const { return db; }
+
+    // Fetch data from the database
+    std::vector<std::vector<std::string>> fetch_query_results(const std::string& query);
 
     // Utility to log errors
     void log_error(const std::string& msg);

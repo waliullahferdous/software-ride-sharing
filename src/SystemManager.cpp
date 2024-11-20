@@ -149,8 +149,8 @@ void SystemManager::add_request(std::shared_ptr<RideRequest> request) {
     }
 
     // Insert the ride request into the database
-    std::string ride_query = "INSERT OR REPLACE INTO RideRequests (request_id, rider_id, pickup_x, pickup_y, dropoff_x, dropoff_y, status) VALUES ('" +
-                             request->get_request_id() + "', '" + request->get_rider_id() + "', " +
+    std::string ride_query = "INSERT OR REPLACE INTO RideRequests (request_id, rider_id, driver_id, pickup_x, pickup_y, dropoff_x, dropoff_y, status) VALUES ('" +
+                             request->get_request_id() + "', '" + request->get_rider_id() + "', NULL, " + 
                              std::to_string(request->get_pickup_location().first) + ", " +
                              std::to_string(request->get_pickup_location().second) + ", " +
                              std::to_string(request->get_dropoff_location().first) + ", " +
@@ -198,6 +198,13 @@ void SystemManager::match_ride() {
             best_driver->accept_ride();
             request->assign_driver(best_driver->get_driver_id());
             request->set_fare(fare);
+
+	    // Update the database with the assigned driver
+    std::string update_query = "UPDATE RideRequests SET driver_id = '" + best_driver->get_driver_id() +
+                               "', status = 'Assigned' WHERE request_id = '" + request->get_request_id() + "';";
+    if (!db_manager.execute_query(update_query)) {
+        logger.log_error("Failed to update driver assignment for RideRequest " + request->get_request_id());
+    }
 
             // Automatically start the ride
             request->update_status(Status::Started);
@@ -346,6 +353,38 @@ void SystemManager::complete_ride(const std::string& ride_id) {
         logger.log_error("No assigned driver found for Ride " + ride_id);
     }
 }
+
+std::vector<std::vector<std::string>> SystemManager::get_driver_history(const std::string& driver_id) {
+    std::string query = "SELECT request_id, rider_id, status, fare, pickup_x || ',' || pickup_y AS pickup, "
+                        "dropoff_x || ',' || dropoff_y AS dropoff FROM RideRequests WHERE driver_id = '" + driver_id + "';";
+    return db_manager.fetch_query_results(query);
+}
+
+std::vector<std::vector<std::string>> SystemManager::get_rider_history(const std::string& rider_id) {
+    std::string query = "SELECT request_id, driver_id, status, fare, pickup_x || ',' || pickup_y AS pickup, "
+                        "dropoff_x || ',' || dropoff_y AS dropoff FROM RideRequests WHERE rider_id = '" + rider_id + "';";
+    return db_manager.fetch_query_results(query);
+}
+
+void SystemManager::display_history(const std::vector<std::vector<std::string>>& history, const std::string& header) {
+    std::cout << "===== " << header << " =====" << std::endl;
+    if (history.empty()) {
+        std::cout << "No data found." << std::endl;
+        return;
+    }
+
+    std::cout << "Request ID | Other Party | Status | Fare | Pickup | Dropoff" << std::endl;
+    std::cout << "----------------------------------------------------------------" << std::endl;
+
+    for (const auto& row : history) {
+        for (const auto& col : row) {
+            std::cout << col << " | ";
+        }
+        std::cout << std::endl;
+    }
+    std::cout << "==========================================" << std::endl;
+}
+
 
 std::shared_ptr<RideRequest> SystemManager::find_request_by_id(const std::string& ride_id) {
     auto it = std::find_if(active_requests.begin(), active_requests.end(),

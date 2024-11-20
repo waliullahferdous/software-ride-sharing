@@ -71,6 +71,16 @@ int main() {
         }
     }
 
+    // Display driver and rider history
+    std::string driver_id = "D001"; // Example driver ID
+    auto driver_history = manager.get_driver_history(driver_id);
+    manager.display_history(driver_history, "Driver History for D001");
+
+    std::string rider_id = "R001"; // Example rider ID
+    auto rider_history = manager.get_rider_history(rider_id);
+    manager.display_history(rider_history, "Rider History for R001");
+
+
     return 0;
 }
 

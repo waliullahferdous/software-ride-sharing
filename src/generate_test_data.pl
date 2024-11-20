@@ -4,9 +4,9 @@ use warnings;
 use List::Util qw(shuffle);
 
 # Parameters for data generation
-my $num_drivers = 200;   # Number of drivers
-my $num_riders = 500;    # Number of riders
-my $num_rides = 1000;     # Number of rides
+my $num_drivers = 5;   # Number of drivers
+my $num_riders = 6;    # Number of riders
+my $num_rides = 50;     # Number of rides
 
 # Random coordinate range
 my $min_coord = 0;

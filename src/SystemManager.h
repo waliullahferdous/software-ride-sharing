@@ -10,6 +10,7 @@
 #include "FareCalculator.h"
 #include <fstream>
 #include <sstream>
+#include <string>
 
 class SystemManager {
 private:
@@ -37,6 +38,12 @@ public:
     void load_drivers_from_file(const std::string& filename);
     void load_riders_from_file(const std::string& filename);
     void load_rides_from_file(const std::string& filename);
+
+    // New methods for ride history
+    std::vector<std::vector<std::string>> get_driver_history(const std::string& driver_id);
+    std::vector<std::vector<std::string>> get_rider_history(const std::string& rider_id);
+    void display_history(const std::vector<std::vector<std::string>>& history, const std::string& header);
+
 
     // Helpers
     std::shared_ptr<RideRequest> find_request_by_id(const std::string& ride_id);
