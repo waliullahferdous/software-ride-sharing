@@ -17,7 +17,6 @@ void process_random_ride(SystemManager& manager, std::shared_ptr<RideRequest> re
 
     auto status = request->get_status();
     if (status == Status::Completed || status == Status::CancelledBeforeStart || status == Status::CancelledAfterStart) {
-        std::cout << "[INFO] Ride " << request->get_request_id() << " already processed. Skipping.\n";
         return; // Skip already processed rides
     }
 
@@ -41,10 +40,9 @@ void process_random_ride(SystemManager& manager, std::shared_ptr<RideRequest> re
             delay();
             manager.complete_ride(request->get_request_id());
         }
-    } else {
-        std::cout << "[INFO] Ride " << request->get_request_id() << " could not be processed in its current state.\n";
     }
 }
+
 
 
 int main() {
