@@ -1,378 +1,378 @@
-[EVENT] 2024-11-20 09:22:05 - Driver D001 (Driver_1) added to the system and database.
-[EVENT] 2024-11-20 09:22:05 - Driver D002 (Driver_2) added to the system and database.
-[EVENT] 2024-11-20 09:22:05 - Driver D003 (Driver_3) added to the system and database.
-[EVENT] 2024-11-20 09:22:05 - Driver D004 (Driver_4) added to the system and database.
-[EVENT] 2024-11-20 09:22:05 - Driver D005 (Driver_5) added to the system and database.
-[EVENT] 2024-11-20 09:22:05 - Driver D006 (Driver_6) added to the system and database.
-[EVENT] 2024-11-20 09:22:05 - Driver D007 (Driver_7) added to the system and database.
-[EVENT] 2024-11-20 09:22:05 - Driver D008 (Driver_8) added to the system and database.
-[EVENT] 2024-11-20 09:22:05 - Driver D009 (Driver_9) added to the system and database.
-[EVENT] 2024-11-20 09:22:05 - Driver D010 (Driver_10) added to the system and database.
-[EVENT] 2024-11-20 09:22:05 - Driver D011 (Driver_11) added to the system and database.
-[EVENT] 2024-11-20 09:22:05 - Driver D012 (Driver_12) added to the system and database.
-[EVENT] 2024-11-20 09:22:05 - Driver D013 (Driver_13) added to the system and database.
-[EVENT] 2024-11-20 09:22:05 - Driver D014 (Driver_14) added to the system and database.
-[EVENT] 2024-11-20 09:22:05 - Driver D015 (Driver_15) added to the system and database.
-[EVENT] 2024-11-20 09:22:05 - Driver D016 (Driver_16) added to the system and database.
-[EVENT] 2024-11-20 09:22:05 - Driver D017 (Driver_17) added to the system and database.
-[EVENT] 2024-11-20 09:22:05 - Driver D018 (Driver_18) added to the system and database.
-[EVENT] 2024-11-20 09:22:05 - Driver D019 (Driver_19) added to the system and database.
-[EVENT] 2024-11-20 09:22:05 - Driver D020 (Driver_20) added to the system and database.
-[EVENT] 2024-11-20 09:22:05 - Driver D021 (Driver_21) added to the system and database.
-[EVENT] 2024-11-20 09:22:05 - Driver D022 (Driver_22) added to the system and database.
-[EVENT] 2024-11-20 09:22:05 - Driver D023 (Driver_23) added to the system and database.
-[EVENT] 2024-11-20 09:22:05 - Driver D024 (Driver_24) added to the system and database.
-[EVENT] 2024-11-20 09:22:05 - Driver D025 (Driver_25) added to the system and database.
-[EVENT] 2024-11-20 09:22:05 - Driver D026 (Driver_26) added to the system and database.
-[EVENT] 2024-11-20 09:22:05 - Driver D027 (Driver_27) added to the system and database.
-[EVENT] 2024-11-20 09:22:05 - Driver D028 (Driver_28) added to the system and database.
-[EVENT] 2024-11-20 09:22:05 - Driver D029 (Driver_29) added to the system and database.
-[EVENT] 2024-11-20 09:22:05 - Driver D030 (Driver_30) added to the system and database.
-[EVENT] 2024-11-20 09:22:05 - Driver D031 (Driver_31) added to the system and database.
-[EVENT] 2024-11-20 09:22:05 - Driver D032 (Driver_32) added to the system and database.
-[EVENT] 2024-11-20 09:22:05 - Driver D033 (Driver_33) added to the system and database.
-[EVENT] 2024-11-20 09:22:05 - Driver D034 (Driver_34) added to the system and database.
-[EVENT] 2024-11-20 09:22:05 - Driver D035 (Driver_35) added to the system and database.
-[EVENT] 2024-11-20 09:22:05 - Driver D036 (Driver_36) added to the system and database.
-[EVENT] 2024-11-20 09:22:05 - Driver D037 (Driver_37) added to the system and database.
-[EVENT] 2024-11-20 09:22:05 - Driver D038 (Driver_38) added to the system and database.
-[EVENT] 2024-11-20 09:22:05 - Driver D039 (Driver_39) added to the system and database.
-[EVENT] 2024-11-20 09:22:05 - Driver D040 (Driver_40) added to the system and database.
-[EVENT] 2024-11-20 09:22:05 - Rider R001 (Rider_1) added to the system and database.
-[EVENT] 2024-11-20 09:22:05 - Rider R002 (Rider_2) added to the system and database.
-[EVENT] 2024-11-20 09:22:05 - Rider R003 (Rider_3) added to the system and database.
-[EVENT] 2024-11-20 09:22:05 - Rider R004 (Rider_4) added to the system and database.
-[EVENT] 2024-11-20 09:22:05 - Rider R005 (Rider_5) added to the system and database.
-[EVENT] 2024-11-20 09:22:05 - Rider R006 (Rider_6) added to the system and database.
-[EVENT] 2024-11-20 09:22:05 - Rider R007 (Rider_7) added to the system and database.
-[EVENT] 2024-11-20 09:22:05 - Rider R008 (Rider_8) added to the system and database.
-[EVENT] 2024-11-20 09:22:05 - Rider R009 (Rider_9) added to the system and database.
-[EVENT] 2024-11-20 09:22:05 - Rider R010 (Rider_10) added to the system and database.
-[EVENT] 2024-11-20 09:22:05 - Rider R011 (Rider_11) added to the system and database.
-[EVENT] 2024-11-20 09:22:05 - Rider R012 (Rider_12) added to the system and database.
-[EVENT] 2024-11-20 09:22:05 - Rider R013 (Rider_13) added to the system and database.
-[EVENT] 2024-11-20 09:22:05 - Rider R014 (Rider_14) added to the system and database.
-[EVENT] 2024-11-20 09:22:05 - Rider R015 (Rider_15) added to the system and database.
-[EVENT] 2024-11-20 09:22:05 - Rider R016 (Rider_16) added to the system and database.
-[EVENT] 2024-11-20 09:22:05 - Rider R017 (Rider_17) added to the system and database.
-[EVENT] 2024-11-20 09:22:05 - Rider R018 (Rider_18) added to the system and database.
-[EVENT] 2024-11-20 09:22:05 - Rider R019 (Rider_19) added to the system and database.
-[EVENT] 2024-11-20 09:22:05 - Rider R020 (Rider_20) added to the system and database.
-[EVENT] 2024-11-20 09:22:05 - Rider R021 (Rider_21) added to the system and database.
-[EVENT] 2024-11-20 09:22:05 - Rider R022 (Rider_22) added to the system and database.
-[EVENT] 2024-11-20 09:22:05 - Rider R023 (Rider_23) added to the system and database.
-[EVENT] 2024-11-20 09:22:05 - Rider R024 (Rider_24) added to the system and database.
-[EVENT] 2024-11-20 09:22:05 - Rider R025 (Rider_25) added to the system and database.
-[EVENT] 2024-11-20 09:22:05 - Rider R026 (Rider_26) added to the system and database.
-[EVENT] 2024-11-20 09:22:05 - Rider R027 (Rider_27) added to the system and database.
-[EVENT] 2024-11-20 09:22:05 - Rider R028 (Rider_28) added to the system and database.
-[EVENT] 2024-11-20 09:22:05 - Rider R029 (Rider_29) added to the system and database.
-[EVENT] 2024-11-20 09:22:05 - Rider R030 (Rider_30) added to the system and database.
-[EVENT] 2024-11-20 09:22:05 - Rider R031 (Rider_31) added to the system and database.
-[EVENT] 2024-11-20 09:22:05 - Rider R032 (Rider_32) added to the system and database.
-[EVENT] 2024-11-20 09:22:05 - Rider R033 (Rider_33) added to the system and database.
-[EVENT] 2024-11-20 09:22:05 - Rider R034 (Rider_34) added to the system and database.
-[EVENT] 2024-11-20 09:22:05 - Rider R035 (Rider_35) added to the system and database.
-[EVENT] 2024-11-20 09:22:05 - Rider R036 (Rider_36) added to the system and database.
-[EVENT] 2024-11-20 09:22:05 - Rider R037 (Rider_37) added to the system and database.
-[EVENT] 2024-11-20 09:22:05 - Rider R038 (Rider_38) added to the system and database.
-[EVENT] 2024-11-20 09:22:05 - Rider R039 (Rider_39) added to the system and database.
-[EVENT] 2024-11-20 09:22:05 - Rider R040 (Rider_40) added to the system and database.
-[EVENT] 2024-11-20 09:22:05 - Rider R041 (Rider_41) added to the system and database.
-[EVENT] 2024-11-20 09:22:05 - Rider R042 (Rider_42) added to the system and database.
-[EVENT] 2024-11-20 09:22:05 - Rider R043 (Rider_43) added to the system and database.
-[EVENT] 2024-11-20 09:22:05 - Rider R044 (Rider_44) added to the system and database.
-[EVENT] 2024-11-20 09:22:05 - Rider R045 (Rider_45) added to the system and database.
-[EVENT] 2024-11-20 09:22:05 - Ride request REQ001 added to the system and database by Rider_25.
-[EVENT] 2024-11-20 09:22:05 - Ride request REQ002 added to the system and database by Rider_24.
-[EVENT] 2024-11-20 09:22:05 - Ride request REQ003 added to the system and database by Rider_38.
-[EVENT] 2024-11-20 09:22:05 - Ride request REQ004 added to the system and database by Rider_1.
-[EVENT] 2024-11-20 09:22:05 - Ride request REQ005 added to the system and database by Rider_16.
-[EVENT] 2024-11-20 09:22:05 - Ride request REQ006 added to the system and database by Rider_37.
-[EVENT] 2024-11-20 09:22:05 - Ride request REQ007 added to the system and database by Rider_12.
-[EVENT] 2024-11-20 09:22:05 - Ride request REQ008 added to the system and database by Rider_34.
-[EVENT] 2024-11-20 09:22:05 - Ride request REQ009 added to the system and database by Rider_5.
-[EVENT] 2024-11-20 09:22:05 - Ride request REQ010 added to the system and database by Rider_10.
-[EVENT] 2024-11-20 09:22:05 - Ride request REQ011 added to the system and database by Rider_43.
-[EVENT] 2024-11-20 09:22:05 - Ride request REQ012 added to the system and database by Rider_15.
-[EVENT] 2024-11-20 09:22:05 - Ride request REQ013 added to the system and database by Rider_9.
-[EVENT] 2024-11-20 09:22:05 - Ride request REQ014 added to the system and database by Rider_27.
-[EVENT] 2024-11-20 09:22:05 - Ride request REQ015 added to the system and database by Rider_40.
-[EVENT] 2024-11-20 09:22:05 - Ride request REQ016 added to the system and database by Rider_21.
-[EVENT] 2024-11-20 09:22:05 - Ride request REQ017 added to the system and database by Rider_45.
-[EVENT] 2024-11-20 09:22:05 - Ride request REQ018 added to the system and database by Rider_11.
-[EVENT] 2024-11-20 09:22:05 - Ride request REQ019 added to the system and database by Rider_7.
-[EVENT] 2024-11-20 09:22:05 - Ride request REQ020 added to the system and database by Rider_31.
-[EVENT] 2024-11-20 09:22:05 - Ride request REQ021 added to the system and database by Rider_2.
-[EVENT] 2024-11-20 09:22:05 - Ride request REQ022 added to the system and database by Rider_4.
-[EVENT] 2024-11-20 09:22:05 - Ride request REQ023 added to the system and database by Rider_35.
-[EVENT] 2024-11-20 09:22:05 - Ride request REQ024 added to the system and database by Rider_33.
-[EVENT] 2024-11-20 09:22:05 - Ride request REQ025 added to the system and database by Rider_18.
-[EVENT] 2024-11-20 09:22:05 - Ride request REQ026 added to the system and database by Rider_36.
-[EVENT] 2024-11-20 09:22:05 - Ride request REQ027 added to the system and database by Rider_19.
-[EVENT] 2024-11-20 09:22:05 - Ride request REQ028 added to the system and database by Rider_29.
-[EVENT] 2024-11-20 09:22:05 - Ride request REQ029 added to the system and database by Rider_39.
-[EVENT] 2024-11-20 09:22:05 - Ride request REQ030 added to the system and database by Rider_44.
-[EVENT] 2024-11-20 09:22:05 - Ride request REQ031 added to the system and database by Rider_26.
-[EVENT] 2024-11-20 09:22:05 - Ride request REQ032 added to the system and database by Rider_23.
-[EVENT] 2024-11-20 09:22:05 - Ride request REQ033 added to the system and database by Rider_6.
-[EVENT] 2024-11-20 09:22:05 - Ride request REQ034 added to the system and database by Rider_30.
-[EVENT] 2024-11-20 09:22:05 - Ride request REQ035 added to the system and database by Rider_13.
-[EVENT] 2024-11-20 09:22:05 - Ride request REQ036 added to the system and database by Rider_28.
-[EVENT] 2024-11-20 09:22:05 - Ride request REQ037 added to the system and database by Rider_17.
-[EVENT] 2024-11-20 09:22:05 - Ride request REQ038 added to the system and database by Rider_32.
-[EVENT] 2024-11-20 09:22:05 - Ride request REQ039 added to the system and database by Rider_22.
-[EVENT] 2024-11-20 09:22:05 - Ride request REQ040 added to the system and database by Rider_14.
-[EVENT] 2024-11-20 09:22:05 - Ride request REQ041 added to the system and database by Rider_41.
-[EVENT] 2024-11-20 09:22:05 - Ride request REQ042 added to the system and database by Rider_42.
-[EVENT] 2024-11-20 09:22:05 - Ride request REQ043 added to the system and database by Rider_20.
-[EVENT] 2024-11-20 09:22:05 - Ride request REQ044 added to the system and database by Rider_8.
-[EVENT] 2024-11-20 09:22:05 - Ride request REQ045 added to the system and database by Rider_3.
-[EVENT] 2024-11-20 09:22:05 - Ride request REQ046 added to the system and database by Rider_25.
-[EVENT] 2024-11-20 09:22:05 - Ride request REQ047 added to the system and database by Rider_24.
-[EVENT] 2024-11-20 09:22:05 - Ride request REQ048 added to the system and database by Rider_38.
-[EVENT] 2024-11-20 09:22:05 - Ride request REQ049 added to the system and database by Rider_1.
-[EVENT] 2024-11-20 09:22:05 - Ride request REQ050 added to the system and database by Rider_16.
-[EVENT] 2024-11-20 09:22:06 - Ride REQ001 started for Rider R025 (Rider_25).
-[EVENT] 2024-11-20 09:22:06 - Matched RideRequest REQ001 with Driver D007 (Driver_7)  (driver-to-pickup distance: 0.00, pickup-to-dropoff distance: 8.06, fare: $21.12)
-[EVENT] 2024-11-20 09:22:06 - Ride REQ002 started for Rider R024 (Rider_24).
-[EVENT] 2024-11-20 09:22:06 - Matched RideRequest REQ002 with Driver D023 (Driver_23)  (driver-to-pickup distance: 1.41, pickup-to-dropoff distance: 10.20, fare: $25.40)
-[EVENT] 2024-11-20 09:22:06 - Ride REQ003 started for Rider R038 (Rider_38).
-[EVENT] 2024-11-20 09:22:06 - Matched RideRequest REQ003 with Driver D013 (Driver_13)  (driver-to-pickup distance: 3.61, pickup-to-dropoff distance: 17.46, fare: $39.93)
-[EVENT] 2024-11-20 09:22:06 - Ride REQ004 started for Rider R001 (Rider_1).
-[EVENT] 2024-11-20 09:22:06 - Matched RideRequest REQ004 with Driver D034 (Driver_34)  (driver-to-pickup distance: 3.16, pickup-to-dropoff distance: 14.21, fare: $33.43)
-[EVENT] 2024-11-20 09:22:06 - Ride REQ005 started for Rider R016 (Rider_16).
-[EVENT] 2024-11-20 09:22:06 - Matched RideRequest REQ005 with Driver D010 (Driver_10)  (driver-to-pickup distance: 4.12, pickup-to-dropoff distance: 15.81, fare: $36.62)
-[EVENT] 2024-11-20 09:22:06 - Ride REQ006 started for Rider R037 (Rider_37).
-[EVENT] 2024-11-20 09:22:06 - Matched RideRequest REQ006 with Driver D039 (Driver_39)  (driver-to-pickup distance: 2.24, pickup-to-dropoff distance: 11.70, fare: $28.41)
-[EVENT] 2024-11-20 09:22:06 - Ride REQ007 started for Rider R012 (Rider_12).
-[EVENT] 2024-11-20 09:22:06 - Matched RideRequest REQ007 with Driver D036 (Driver_36)  (driver-to-pickup distance: 3.00, pickup-to-dropoff distance: 9.22, fare: $23.44)
-[EVENT] 2024-11-20 09:22:06 - Ride REQ008 started for Rider R034 (Rider_34).
-[EVENT] 2024-11-20 09:22:06 - Matched RideRequest REQ008 with Driver D019 (Driver_19)  (driver-to-pickup distance: 6.00, pickup-to-dropoff distance: 17.03, fare: $39.06)
-[EVENT] 2024-11-20 09:22:06 - Ride REQ009 started for Rider R005 (Rider_5).
-[EVENT] 2024-11-20 09:22:06 - Matched RideRequest REQ009 with Driver D038 (Driver_38)  (driver-to-pickup distance: 5.39, pickup-to-dropoff distance: 17.46, fare: $39.93)
-[EVENT] 2024-11-20 09:22:06 - Ride REQ010 started for Rider R010 (Rider_10).
-[EVENT] 2024-11-20 09:22:06 - Matched RideRequest REQ010 with Driver D030 (Driver_30)  (driver-to-pickup distance: 1.00, pickup-to-dropoff distance: 9.49, fare: $23.97)
-[EVENT] 2024-11-20 09:22:06 - Ride REQ011 started for Rider R043 (Rider_43).
-[EVENT] 2024-11-20 09:22:06 - Matched RideRequest REQ011 with Driver D037 (Driver_37)  (driver-to-pickup distance: 7.62, pickup-to-dropoff distance: 4.12, fare: $13.25)
-[EVENT] 2024-11-20 09:22:06 - Ride REQ012 started for Rider R015 (Rider_15).
-[EVENT] 2024-11-20 09:22:06 - Matched RideRequest REQ012 with Driver D017 (Driver_17)  (driver-to-pickup distance: 4.12, pickup-to-dropoff distance: 13.04, fare: $31.08)
-[EVENT] 2024-11-20 09:22:06 - Ride REQ013 started for Rider R009 (Rider_9).
-[EVENT] 2024-11-20 09:22:06 - Matched RideRequest REQ013 with Driver D032 (Driver_32)  (driver-to-pickup distance: 9.22, pickup-to-dropoff distance: 16.64, fare: $38.29)
-[EVENT] 2024-11-20 09:22:06 - Ride REQ014 started for Rider R027 (Rider_27).
-[EVENT] 2024-11-20 09:22:06 - Matched RideRequest REQ014 with Driver D001 (Driver_1)  (driver-to-pickup distance: 3.16, pickup-to-dropoff distance: 15.03, fare: $35.07)
-[EVENT] 2024-11-20 09:22:06 - Ride REQ015 started for Rider R040 (Rider_40).
-[EVENT] 2024-11-20 09:22:06 - Matched RideRequest REQ015 with Driver D012 (Driver_12)  (driver-to-pickup distance: 6.32, pickup-to-dropoff distance: 22.02, fare: $49.05)
-[EVENT] 2024-11-20 09:22:06 - Ride REQ016 started for Rider R021 (Rider_21).
-[EVENT] 2024-11-20 09:22:06 - Matched RideRequest REQ016 with Driver D004 (Driver_4)  (driver-to-pickup distance: 13.42, pickup-to-dropoff distance: 16.12, fare: $37.25)
-[EVENT] 2024-11-20 09:22:06 - Ride REQ017 started for Rider R045 (Rider_45).
-[EVENT] 2024-11-20 09:22:06 - Matched RideRequest REQ017 with Driver D025 (Driver_25)  (driver-to-pickup distance: 8.06, pickup-to-dropoff distance: 10.00, fare: $25.00)
-[EVENT] 2024-11-20 09:22:06 - Ride REQ018 started for Rider R011 (Rider_11).
-[EVENT] 2024-11-20 09:22:06 - Matched RideRequest REQ018 with Driver D008 (Driver_8)  (driver-to-pickup distance: 1.00, pickup-to-dropoff distance: 17.03, fare: $39.06)
-[EVENT] 2024-11-20 09:22:06 - Ride REQ019 started for Rider R007 (Rider_7).
-[EVENT] 2024-11-20 09:22:06 - Matched RideRequest REQ019 with Driver D003 (Driver_3)  (driver-to-pickup distance: 18.25, pickup-to-dropoff distance: 16.55, fare: $38.11)
-[ERROR] 2024-11-20 09:22:06 - No available driver found for RideRequest REQ020
-[ERROR] 2024-11-20 09:22:06 - No available driver found for RideRequest REQ021
-[ERROR] 2024-11-20 09:22:06 - No available driver found for RideRequest REQ022
-[ERROR] 2024-11-20 09:22:06 - No available driver found for RideRequest REQ023
-[ERROR] 2024-11-20 09:22:06 - No available driver found for RideRequest REQ024
-[ERROR] 2024-11-20 09:22:06 - No available driver found for RideRequest REQ025
-[ERROR] 2024-11-20 09:22:06 - No available driver found for RideRequest REQ026
-[ERROR] 2024-11-20 09:22:06 - No available driver found for RideRequest REQ027
-[ERROR] 2024-11-20 09:22:06 - No available driver found for RideRequest REQ028
-[ERROR] 2024-11-20 09:22:06 - No available driver found for RideRequest REQ029
-[ERROR] 2024-11-20 09:22:06 - No available driver found for RideRequest REQ030
-[ERROR] 2024-11-20 09:22:06 - No available driver found for RideRequest REQ031
-[ERROR] 2024-11-20 09:22:06 - No available driver found for RideRequest REQ032
-[ERROR] 2024-11-20 09:22:06 - No available driver found for RideRequest REQ033
-[ERROR] 2024-11-20 09:22:06 - No available driver found for RideRequest REQ034
-[ERROR] 2024-11-20 09:22:06 - No available driver found for RideRequest REQ035
-[ERROR] 2024-11-20 09:22:06 - No available driver found for RideRequest REQ036
-[ERROR] 2024-11-20 09:22:06 - No available driver found for RideRequest REQ037
-[ERROR] 2024-11-20 09:22:06 - No available driver found for RideRequest REQ038
-[ERROR] 2024-11-20 09:22:06 - No available driver found for RideRequest REQ039
-[ERROR] 2024-11-20 09:22:06 - No available driver found for RideRequest REQ040
-[ERROR] 2024-11-20 09:22:06 - No available driver found for RideRequest REQ041
-[ERROR] 2024-11-20 09:22:06 - No available driver found for RideRequest REQ042
-[ERROR] 2024-11-20 09:22:06 - No available driver found for RideRequest REQ043
-[ERROR] 2024-11-20 09:22:06 - No available driver found for RideRequest REQ044
-[ERROR] 2024-11-20 09:22:06 - No available driver found for RideRequest REQ045
-[ERROR] 2024-11-20 09:22:06 - No available driver found for RideRequest REQ046
-[ERROR] 2024-11-20 09:22:06 - No available driver found for RideRequest REQ047
-[ERROR] 2024-11-20 09:22:06 - No available driver found for RideRequest REQ048
-[ERROR] 2024-11-20 09:22:06 - No available driver found for RideRequest REQ049
-[ERROR] 2024-11-20 09:22:06 - No available driver found for RideRequest REQ050
-[EVENT] 2024-11-20 09:22:07 - Ride REQ001 completed.
-[EVENT] 2024-11-20 09:22:07 - Driver D007 (Driver_7) location updated to REQ001 drop-off point (3, 10) after ride completion.
-[EVENT] 2024-11-20 09:22:08 - Ride REQ002 cancelled by Rider before starting.
-[EVENT] 2024-11-20 09:22:08 - Driver D023 (Driver_23) location remains unchanged after cancellation.
-[EVENT] 2024-11-20 09:22:09 - Ride REQ003 cancelled by Driver after starting.
-[EVENT] 2024-11-20 09:22:09 - Driver D013 (Driver_13) location updated to REQ003 pickup point (14, 2) after cancellation.
-[EVENT] 2024-11-20 09:22:10 - Ride REQ004 completed.
-[EVENT] 2024-11-20 09:22:10 - Driver D034 (Driver_34) location updated to REQ004 drop-off point (16, 16) after ride completion.
-[EVENT] 2024-11-20 09:22:11 - Ride REQ005 cancelled by Rider before starting.
-[EVENT] 2024-11-20 09:22:11 - Driver D010 (Driver_10) location remains unchanged after cancellation.
-[EVENT] 2024-11-20 09:22:12 - Ride REQ006 cancelled by Rider after starting.
-[EVENT] 2024-11-20 09:22:12 - Driver D039 (Driver_39) location updated to REQ006 pickup point (4, 2) after cancellation.
-[EVENT] 2024-11-20 09:22:13 - Ride REQ007 cancelled by Rider after starting.
-[EVENT] 2024-11-20 09:22:13 - Driver D036 (Driver_36) location updated to REQ007 pickup point (1, 12) after cancellation.
-[EVENT] 2024-11-20 09:22:14 - Ride REQ008 cancelled by Rider after starting.
-[EVENT] 2024-11-20 09:22:14 - Driver D019 (Driver_19) location updated to REQ008 pickup point (1, 8) after cancellation.
-[EVENT] 2024-11-20 09:22:15 - Ride REQ009 cancelled by Rider after starting.
-[EVENT] 2024-11-20 09:22:15 - Driver D038 (Driver_38) location updated to REQ009 pickup point (8, 19) after cancellation.
-[EVENT] 2024-11-20 09:22:16 - Ride REQ010 cancelled by Rider before starting.
-[EVENT] 2024-11-20 09:22:16 - Driver D030 (Driver_30) location remains unchanged after cancellation.
-[EVENT] 2024-11-20 09:22:17 - Ride REQ011 completed.
-[EVENT] 2024-11-20 09:22:17 - Driver D037 (Driver_37) location updated to REQ011 drop-off point (14, 18) after ride completion.
-[EVENT] 2024-11-20 09:22:18 - Ride REQ012 completed.
-[EVENT] 2024-11-20 09:22:18 - Driver D017 (Driver_17) location updated to REQ012 drop-off point (15, 13) after ride completion.
-[EVENT] 2024-11-20 09:22:19 - Ride REQ013 completed.
-[EVENT] 2024-11-20 09:22:19 - Driver D032 (Driver_32) location updated to REQ013 drop-off point (1, 4) after ride completion.
-[EVENT] 2024-11-20 09:22:20 - Ride REQ014 cancelled by Driver after starting.
-[EVENT] 2024-11-20 09:22:20 - Driver D001 (Driver_1) location updated to REQ014 pickup point (18, 9) after cancellation.
-[EVENT] 2024-11-20 09:22:21 - Ride REQ015 cancelled by Rider after starting.
-[EVENT] 2024-11-20 09:22:21 - Driver D012 (Driver_12) location updated to REQ015 pickup point (17, 18) after cancellation.
-[EVENT] 2024-11-20 09:22:22 - Ride REQ016 completed.
-[EVENT] 2024-11-20 09:22:22 - Driver D004 (Driver_4) location updated to REQ016 drop-off point (14, 9) after ride completion.
-[EVENT] 2024-11-20 09:22:23 - Ride REQ017 cancelled by Driver after starting.
-[EVENT] 2024-11-20 09:22:23 - Driver D025 (Driver_25) location updated to REQ017 pickup point (9, 5) after cancellation.
-[EVENT] 2024-11-20 09:22:24 - Ride REQ018 completed.
-[EVENT] 2024-11-20 09:22:24 - Driver D008 (Driver_8) location updated to REQ018 drop-off point (11, 3) after ride completion.
-[EVENT] 2024-11-20 09:22:25 - Ride REQ019 completed.
-[EVENT] 2024-11-20 09:22:25 - Driver D003 (Driver_3) location updated to REQ019 drop-off point (16, 12) after ride completion.
-[EVENT] 2024-11-20 09:22:41 - Ride REQ020 started for Rider R031 (Rider_31).
-[EVENT] 2024-11-20 09:22:41 - Matched RideRequest REQ020 with Driver D012 (Driver_12)  (driver-to-pickup distance: 1.41, pickup-to-dropoff distance: 20.00, fare: $45.00)
-[EVENT] 2024-11-20 09:22:41 - Ride REQ021 started for Rider R002 (Rider_2).
-[EVENT] 2024-11-20 09:22:41 - Matched RideRequest REQ021 with Driver D030 (Driver_30)  (driver-to-pickup distance: 2.24, pickup-to-dropoff distance: 8.60, fare: $22.20)
-[EVENT] 2024-11-20 09:22:41 - Ride REQ022 started for Rider R004 (Rider_4).
-[EVENT] 2024-11-20 09:22:41 - Matched RideRequest REQ022 with Driver D001 (Driver_1)  (driver-to-pickup distance: 3.16, pickup-to-dropoff distance: 13.93, fare: $32.86)
-[EVENT] 2024-11-20 09:22:41 - Ride REQ023 started for Rider R035 (Rider_35).
-[EVENT] 2024-11-20 09:22:41 - Matched RideRequest REQ023 with Driver D010 (Driver_10)  (driver-to-pickup distance: 1.00, pickup-to-dropoff distance: 19.10, fare: $43.21)
-[EVENT] 2024-11-20 09:22:41 - Ride REQ024 started for Rider R033 (Rider_33).
-[EVENT] 2024-11-20 09:22:41 - Matched RideRequest REQ024 with Driver D007 (Driver_7)  (driver-to-pickup distance: 5.10, pickup-to-dropoff distance: 13.04, fare: $31.08)
-[EVENT] 2024-11-20 09:22:41 - Ride REQ025 started for Rider R018 (Rider_18).
-[EVENT] 2024-11-20 09:22:41 - Matched RideRequest REQ025 with Driver D013 (Driver_13)  (driver-to-pickup distance: 5.39, pickup-to-dropoff distance: 17.03, fare: $39.06)
-[EVENT] 2024-11-20 09:22:41 - Ride REQ026 started for Rider R036 (Rider_36).
-[EVENT] 2024-11-20 09:22:41 - Matched RideRequest REQ026 with Driver D008 (Driver_8)  (driver-to-pickup distance: 7.00, pickup-to-dropoff distance: 17.46, fare: $39.93)
-[EVENT] 2024-11-20 09:22:41 - Ride REQ027 started for Rider R019 (Rider_19).
-[EVENT] 2024-11-20 09:22:41 - Matched RideRequest REQ027 with Driver D032 (Driver_32)  (driver-to-pickup distance: 3.16, pickup-to-dropoff distance: 6.40, fare: $17.81)
-[EVENT] 2024-11-20 09:22:41 - Ride REQ028 started for Rider R029 (Rider_29).
-[EVENT] 2024-11-20 09:22:41 - Matched RideRequest REQ028 with Driver D004 (Driver_4)  (driver-to-pickup distance: 8.60, pickup-to-dropoff distance: 3.61, fare: $12.21)
-[EVENT] 2024-11-20 09:22:41 - Ride REQ029 started for Rider R039 (Rider_39).
-[EVENT] 2024-11-20 09:22:41 - Matched RideRequest REQ029 with Driver D025 (Driver_25)  (driver-to-pickup distance: 4.24, pickup-to-dropoff distance: 10.20, fare: $25.40)
-[EVENT] 2024-11-20 09:22:41 - Ride REQ030 started for Rider R044 (Rider_44).
-[EVENT] 2024-11-20 09:22:41 - Matched RideRequest REQ030 with Driver D003 (Driver_3)  (driver-to-pickup distance: 12.04, pickup-to-dropoff distance: 15.03, fare: $35.07)
-[EVENT] 2024-11-20 09:22:41 - Ride REQ031 started for Rider R026 (Rider_26).
-[EVENT] 2024-11-20 09:22:41 - Matched RideRequest REQ031 with Driver D017 (Driver_17)  (driver-to-pickup distance: 8.06, pickup-to-dropoff distance: 6.08, fare: $17.17)
-[EVENT] 2024-11-20 09:22:41 - Ride REQ032 started for Rider R023 (Rider_23).
-[EVENT] 2024-11-20 09:22:41 - Matched RideRequest REQ032 with Driver D019 (Driver_19)  (driver-to-pickup distance: 4.12, pickup-to-dropoff distance: 14.21, fare: $33.43)
-[EVENT] 2024-11-20 09:22:41 - Ride REQ033 started for Rider R006 (Rider_6).
-[EVENT] 2024-11-20 09:22:41 - Matched RideRequest REQ033 with Driver D039 (Driver_39)  (driver-to-pickup distance: 1.00, pickup-to-dropoff distance: 12.08, fare: $29.17)
-[EVENT] 2024-11-20 09:22:41 - Ride REQ034 started for Rider R030 (Rider_30).
-[EVENT] 2024-11-20 09:22:41 - Matched RideRequest REQ034 with Driver D036 (Driver_36)  (driver-to-pickup distance: 5.00, pickup-to-dropoff distance: 23.43, fare: $51.86)
-[EVENT] 2024-11-20 09:22:41 - Ride REQ035 started for Rider R013 (Rider_13).
-[EVENT] 2024-11-20 09:22:41 - Matched RideRequest REQ035 with Driver D023 (Driver_23)  (driver-to-pickup distance: 12.04, pickup-to-dropoff distance: 2.24, fare: $9.47)
-[EVENT] 2024-11-20 09:22:41 - Ride REQ036 started for Rider R028 (Rider_28).
-[EVENT] 2024-11-20 09:22:41 - Matched RideRequest REQ036 with Driver D034 (Driver_34)  (driver-to-pickup distance: 6.32, pickup-to-dropoff distance: 9.85, fare: $24.70)
-[EVENT] 2024-11-20 09:22:41 - Ride REQ037 started for Rider R017 (Rider_17).
-[EVENT] 2024-11-20 09:22:41 - Matched RideRequest REQ037 with Driver D038 (Driver_38)  (driver-to-pickup distance: 16.12, pickup-to-dropoff distance: 5.39, fare: $15.77)
-[EVENT] 2024-11-20 09:22:41 - Ride REQ038 started for Rider R032 (Rider_32).
-[EVENT] 2024-11-20 09:22:41 - Matched RideRequest REQ038 with Driver D037 (Driver_37)  (driver-to-pickup distance: 3.16, pickup-to-dropoff distance: 10.05, fare: $25.10)
-[ERROR] 2024-11-20 09:22:41 - No available driver found for RideRequest REQ039
-[ERROR] 2024-11-20 09:22:41 - No available driver found for RideRequest REQ040
-[ERROR] 2024-11-20 09:22:41 - No available driver found for RideRequest REQ041
-[ERROR] 2024-11-20 09:22:41 - No available driver found for RideRequest REQ042
-[ERROR] 2024-11-20 09:22:41 - No available driver found for RideRequest REQ043
-[ERROR] 2024-11-20 09:22:41 - No available driver found for RideRequest REQ044
-[ERROR] 2024-11-20 09:22:41 - No available driver found for RideRequest REQ045
-[ERROR] 2024-11-20 09:22:41 - No available driver found for RideRequest REQ046
-[ERROR] 2024-11-20 09:22:41 - No available driver found for RideRequest REQ047
-[ERROR] 2024-11-20 09:22:41 - No available driver found for RideRequest REQ048
-[ERROR] 2024-11-20 09:22:41 - No available driver found for RideRequest REQ049
-[ERROR] 2024-11-20 09:22:41 - No available driver found for RideRequest REQ050
-[EVENT] 2024-11-20 09:22:42 - Ride REQ020 cancelled by Driver before starting.
-[EVENT] 2024-11-20 09:22:42 - Driver D012 (Driver_12) location remains unchanged after cancellation.
-[EVENT] 2024-11-20 09:22:43 - Ride REQ021 completed.
-[EVENT] 2024-11-20 09:22:43 - Driver D030 (Driver_30) location updated to REQ021 drop-off point (14, 6) after ride completion.
-[EVENT] 2024-11-20 09:22:44 - Ride REQ022 completed.
-[EVENT] 2024-11-20 09:22:44 - Driver D001 (Driver_1) location updated to REQ022 drop-off point (14, 19) after ride completion.
-[EVENT] 2024-11-20 09:22:45 - Ride REQ023 completed.
-[EVENT] 2024-11-20 09:22:45 - Driver D010 (Driver_10) location updated to REQ023 drop-off point (19, 16) after ride completion.
-[EVENT] 2024-11-20 09:22:46 - Ride REQ024 completed.
-[EVENT] 2024-11-20 09:22:46 - Driver D007 (Driver_7) location updated to REQ024 drop-off point (19, 4) after ride completion.
-[EVENT] 2024-11-20 09:22:47 - Ride REQ025 cancelled by Driver before starting.
-[EVENT] 2024-11-20 09:22:47 - Driver D013 (Driver_13) location remains unchanged after cancellation.
-[EVENT] 2024-11-20 09:22:48 - Ride REQ026 completed.
-[EVENT] 2024-11-20 09:22:48 - Driver D008 (Driver_8) location updated to REQ026 drop-off point (2, 10) after ride completion.
-[EVENT] 2024-11-20 09:22:49 - Ride REQ027 cancelled by Rider after starting.
-[EVENT] 2024-11-20 09:22:49 - Driver D032 (Driver_32) location updated to REQ027 pickup point (0, 1) after cancellation.
-[EVENT] 2024-11-20 09:22:50 - Ride REQ028 cancelled by Rider after starting.
-[EVENT] 2024-11-20 09:22:50 - Driver D004 (Driver_4) location updated to REQ028 pickup point (19, 2) after cancellation.
-[EVENT] 2024-11-20 09:22:51 - Ride REQ029 cancelled by Driver after starting.
-[EVENT] 2024-11-20 09:22:51 - Driver D025 (Driver_25) location updated to REQ029 pickup point (12, 2) after cancellation.
-[EVENT] 2024-11-20 09:22:52 - Ride REQ030 cancelled by Driver after starting.
-[EVENT] 2024-11-20 09:22:52 - Driver D003 (Driver_3) location updated to REQ030 pickup point (17, 0) after cancellation.
-[EVENT] 2024-11-20 09:22:53 - Ride REQ031 completed.
-[EVENT] 2024-11-20 09:22:53 - Driver D017 (Driver_17) location updated to REQ031 drop-off point (18, 12) after ride completion.
-[EVENT] 2024-11-20 09:22:54 - Ride REQ032 completed.
-[EVENT] 2024-11-20 09:22:54 - Driver D019 (Driver_19) location updated to REQ032 drop-off point (16, 16) after ride completion.
-[EVENT] 2024-11-20 09:22:55 - Ride REQ033 cancelled by Rider after starting.
-[EVENT] 2024-11-20 09:22:55 - Driver D039 (Driver_39) location updated to REQ033 pickup point (4, 3) after cancellation.
-[EVENT] 2024-11-20 09:22:56 - Ride REQ034 completed.
-[EVENT] 2024-11-20 09:22:56 - Driver D036 (Driver_36) location updated to REQ034 drop-off point (19, 2) after ride completion.
-[EVENT] 2024-11-20 09:22:57 - Ride REQ035 cancelled by Driver after starting.
-[EVENT] 2024-11-20 09:22:57 - Driver D023 (Driver_23) location updated to REQ035 pickup point (8, 4) after cancellation.
-[EVENT] 2024-11-20 09:22:58 - Ride REQ036 cancelled by Driver before starting.
-[EVENT] 2024-11-20 09:22:58 - Driver D034 (Driver_34) location remains unchanged after cancellation.
-[EVENT] 2024-11-20 09:22:59 - Ride REQ037 cancelled by Rider before starting.
-[EVENT] 2024-11-20 09:22:59 - Driver D038 (Driver_38) location remains unchanged after cancellation.
-[EVENT] 2024-11-20 09:23:00 - Ride REQ038 cancelled by Rider after starting.
-[EVENT] 2024-11-20 09:23:00 - Driver D037 (Driver_37) location updated to REQ038 pickup point (17, 19) after cancellation.
-[EVENT] 2024-11-20 09:23:06 - Ride REQ039 started for Rider R022 (Rider_22).
-[EVENT] 2024-11-20 09:23:06 - Matched RideRequest REQ039 with Driver D008 (Driver_8)  (driver-to-pickup distance: 7.28, pickup-to-dropoff distance: 14.56, fare: $34.12)
-[EVENT] 2024-11-20 09:23:06 - Ride REQ040 started for Rider R014 (Rider_14).
-[EVENT] 2024-11-20 09:23:06 - Matched RideRequest REQ040 with Driver D039 (Driver_39)  (driver-to-pickup distance: 4.24, pickup-to-dropoff distance: 2.83, fare: $10.66)
-[EVENT] 2024-11-20 09:23:06 - Ride REQ041 started for Rider R041 (Rider_41).
-[EVENT] 2024-11-20 09:23:06 - Matched RideRequest REQ041 with Driver D017 (Driver_17)  (driver-to-pickup distance: 3.16, pickup-to-dropoff distance: 10.00, fare: $25.00)
-[EVENT] 2024-11-20 09:23:06 - Ride REQ042 started for Rider R042 (Rider_42).
-[EVENT] 2024-11-20 09:23:06 - Matched RideRequest REQ042 with Driver D019 (Driver_19)  (driver-to-pickup distance: 2.24, pickup-to-dropoff distance: 13.45, fare: $31.91)
-[EVENT] 2024-11-20 09:23:06 - Ride REQ043 started for Rider R020 (Rider_20).
-[EVENT] 2024-11-20 09:23:06 - Matched RideRequest REQ043 with Driver D032 (Driver_32)  (driver-to-pickup distance: 1.00, pickup-to-dropoff distance: 23.02, fare: $51.04)
-[EVENT] 2024-11-20 09:23:06 - Ride REQ044 started for Rider R008 (Rider_8).
-[EVENT] 2024-11-20 09:23:06 - Matched RideRequest REQ044 with Driver D023 (Driver_23)  (driver-to-pickup distance: 5.00, pickup-to-dropoff distance: 5.10, fare: $15.20)
-[EVENT] 2024-11-20 09:23:06 - Ride REQ045 started for Rider R003 (Rider_3).
-[EVENT] 2024-11-20 09:23:06 - Matched RideRequest REQ045 with Driver D034 (Driver_34)  (driver-to-pickup distance: 2.00, pickup-to-dropoff distance: 15.52, fare: $36.05)
-[EVENT] 2024-11-20 09:23:06 - Ride REQ046 started for Rider R025 (Rider_25).
-[EVENT] 2024-11-20 09:23:06 - Matched RideRequest REQ046 with Driver D038 (Driver_38)  (driver-to-pickup distance: 7.07, pickup-to-dropoff distance: 5.39, fare: $15.77)
-[EVENT] 2024-11-20 09:23:06 - Ride REQ047 started for Rider R024 (Rider_24).
-[EVENT] 2024-11-20 09:23:06 - Matched RideRequest REQ047 with Driver D030 (Driver_30)  (driver-to-pickup distance: 4.24, pickup-to-dropoff distance: 9.00, fare: $23.00)
-[EVENT] 2024-11-20 09:23:06 - Ride REQ048 started for Rider R038 (Rider_38).
-[EVENT] 2024-11-20 09:23:06 - Matched RideRequest REQ048 with Driver D001 (Driver_1)  (driver-to-pickup distance: 13.00, pickup-to-dropoff distance: 13.42, fare: $31.83)
-[EVENT] 2024-11-20 09:23:06 - Ride REQ049 started for Rider R001 (Rider_1).
-[EVENT] 2024-11-20 09:23:06 - Matched RideRequest REQ049 with Driver D025 (Driver_25)  (driver-to-pickup distance: 12.17, pickup-to-dropoff distance: 10.44, fare: $25.88)
-[EVENT] 2024-11-20 09:23:06 - Ride REQ050 started for Rider R016 (Rider_16).
-[EVENT] 2024-11-20 09:23:06 - Matched RideRequest REQ050 with Driver D013 (Driver_13)  (driver-to-pickup distance: 10.63, pickup-to-dropoff distance: 6.40, fare: $17.81)
-[EVENT] 2024-11-20 09:23:07 - Ride REQ039 completed.
-[EVENT] 2024-11-20 09:23:07 - Driver D008 (Driver_8) location updated to REQ039 drop-off point (14, 13) after ride completion.
-[EVENT] 2024-11-20 09:23:08 - Ride REQ040 cancelled by Rider after starting.
-[EVENT] 2024-11-20 09:23:08 - Driver D039 (Driver_39) location updated to REQ040 pickup point (1, 6) after cancellation.
-[EVENT] 2024-11-20 09:23:09 - Ride REQ041 cancelled by Driver before starting.
-[EVENT] 2024-11-20 09:23:09 - Driver D017 (Driver_17) location remains unchanged after cancellation.
-[EVENT] 2024-11-20 09:23:10 - Ride REQ042 cancelled by Rider before starting.
-[EVENT] 2024-11-20 09:23:10 - Driver D019 (Driver_19) location remains unchanged after cancellation.
-[EVENT] 2024-11-20 09:23:11 - Ride REQ043 completed.
-[EVENT] 2024-11-20 09:23:11 - Driver D032 (Driver_32) location updated to REQ043 drop-off point (19, 13) after ride completion.
-[EVENT] 2024-11-20 09:23:12 - Ride REQ044 cancelled by Rider after starting.
-[EVENT] 2024-11-20 09:23:12 - Driver D023 (Driver_23) location updated to REQ044 pickup point (4, 1) after cancellation.
-[EVENT] 2024-11-20 09:23:13 - Ride REQ045 cancelled by Rider before starting.
-[EVENT] 2024-11-20 09:23:13 - Driver D034 (Driver_34) location remains unchanged after cancellation.
-[EVENT] 2024-11-20 09:23:14 - Ride REQ046 cancelled by Driver after starting.
-[EVENT] 2024-11-20 09:23:14 - Driver D038 (Driver_38) location updated to REQ046 pickup point (3, 14) after cancellation.
-[EVENT] 2024-11-20 09:23:15 - Ride REQ047 completed.
-[EVENT] 2024-11-20 09:23:15 - Driver D030 (Driver_30) location updated to REQ047 drop-off point (17, 18) after ride completion.
-[EVENT] 2024-11-20 09:23:16 - Ride REQ048 completed.
-[EVENT] 2024-11-20 09:23:16 - Driver D001 (Driver_1) location updated to REQ048 drop-off point (8, 2) after ride completion.
-[EVENT] 2024-11-20 09:23:17 - Ride REQ049 completed.
-[EVENT] 2024-11-20 09:23:17 - Driver D025 (Driver_25) location updated to REQ049 drop-off point (3, 10) after ride completion.
-[EVENT] 2024-11-20 09:23:18 - Ride REQ050 cancelled by Driver before starting.
-[EVENT] 2024-11-20 09:23:18 - Driver D013 (Driver_13) location remains unchanged after cancellation.
+[EVENT] 2024-11-20 11:15:48 - Driver D001 (Driver_1) added to the system and database.
+[EVENT] 2024-11-20 11:15:48 - Driver D002 (Driver_2) added to the system and database.
+[EVENT] 2024-11-20 11:15:48 - Driver D003 (Driver_3) added to the system and database.
+[EVENT] 2024-11-20 11:15:48 - Driver D004 (Driver_4) added to the system and database.
+[EVENT] 2024-11-20 11:15:48 - Driver D005 (Driver_5) added to the system and database.
+[EVENT] 2024-11-20 11:15:48 - Driver D006 (Driver_6) added to the system and database.
+[EVENT] 2024-11-20 11:15:48 - Driver D007 (Driver_7) added to the system and database.
+[EVENT] 2024-11-20 11:15:48 - Driver D008 (Driver_8) added to the system and database.
+[EVENT] 2024-11-20 11:15:48 - Driver D009 (Driver_9) added to the system and database.
+[EVENT] 2024-11-20 11:15:48 - Driver D010 (Driver_10) added to the system and database.
+[EVENT] 2024-11-20 11:15:48 - Driver D011 (Driver_11) added to the system and database.
+[EVENT] 2024-11-20 11:15:48 - Driver D012 (Driver_12) added to the system and database.
+[EVENT] 2024-11-20 11:15:48 - Driver D013 (Driver_13) added to the system and database.
+[EVENT] 2024-11-20 11:15:48 - Driver D014 (Driver_14) added to the system and database.
+[EVENT] 2024-11-20 11:15:48 - Driver D015 (Driver_15) added to the system and database.
+[EVENT] 2024-11-20 11:15:48 - Driver D016 (Driver_16) added to the system and database.
+[EVENT] 2024-11-20 11:15:48 - Driver D017 (Driver_17) added to the system and database.
+[EVENT] 2024-11-20 11:15:48 - Driver D018 (Driver_18) added to the system and database.
+[EVENT] 2024-11-20 11:15:48 - Driver D019 (Driver_19) added to the system and database.
+[EVENT] 2024-11-20 11:15:48 - Driver D020 (Driver_20) added to the system and database.
+[EVENT] 2024-11-20 11:15:48 - Driver D021 (Driver_21) added to the system and database.
+[EVENT] 2024-11-20 11:15:48 - Driver D022 (Driver_22) added to the system and database.
+[EVENT] 2024-11-20 11:15:48 - Driver D023 (Driver_23) added to the system and database.
+[EVENT] 2024-11-20 11:15:48 - Driver D024 (Driver_24) added to the system and database.
+[EVENT] 2024-11-20 11:15:48 - Driver D025 (Driver_25) added to the system and database.
+[EVENT] 2024-11-20 11:15:48 - Driver D026 (Driver_26) added to the system and database.
+[EVENT] 2024-11-20 11:15:48 - Driver D027 (Driver_27) added to the system and database.
+[EVENT] 2024-11-20 11:15:48 - Driver D028 (Driver_28) added to the system and database.
+[EVENT] 2024-11-20 11:15:48 - Driver D029 (Driver_29) added to the system and database.
+[EVENT] 2024-11-20 11:15:48 - Driver D030 (Driver_30) added to the system and database.
+[EVENT] 2024-11-20 11:15:48 - Driver D031 (Driver_31) added to the system and database.
+[EVENT] 2024-11-20 11:15:48 - Driver D032 (Driver_32) added to the system and database.
+[EVENT] 2024-11-20 11:15:48 - Driver D033 (Driver_33) added to the system and database.
+[EVENT] 2024-11-20 11:15:48 - Driver D034 (Driver_34) added to the system and database.
+[EVENT] 2024-11-20 11:15:48 - Driver D035 (Driver_35) added to the system and database.
+[EVENT] 2024-11-20 11:15:48 - Driver D036 (Driver_36) added to the system and database.
+[EVENT] 2024-11-20 11:15:48 - Driver D037 (Driver_37) added to the system and database.
+[EVENT] 2024-11-20 11:15:48 - Driver D038 (Driver_38) added to the system and database.
+[EVENT] 2024-11-20 11:15:48 - Driver D039 (Driver_39) added to the system and database.
+[EVENT] 2024-11-20 11:15:48 - Driver D040 (Driver_40) added to the system and database.
+[EVENT] 2024-11-20 11:15:48 - Rider R001 (Rider_1) added to the system and database.
+[EVENT] 2024-11-20 11:15:48 - Rider R002 (Rider_2) added to the system and database.
+[EVENT] 2024-11-20 11:15:48 - Rider R003 (Rider_3) added to the system and database.
+[EVENT] 2024-11-20 11:15:48 - Rider R004 (Rider_4) added to the system and database.
+[EVENT] 2024-11-20 11:15:48 - Rider R005 (Rider_5) added to the system and database.
+[EVENT] 2024-11-20 11:15:48 - Rider R006 (Rider_6) added to the system and database.
+[EVENT] 2024-11-20 11:15:48 - Rider R007 (Rider_7) added to the system and database.
+[EVENT] 2024-11-20 11:15:48 - Rider R008 (Rider_8) added to the system and database.
+[EVENT] 2024-11-20 11:15:48 - Rider R009 (Rider_9) added to the system and database.
+[EVENT] 2024-11-20 11:15:48 - Rider R010 (Rider_10) added to the system and database.
+[EVENT] 2024-11-20 11:15:48 - Rider R011 (Rider_11) added to the system and database.
+[EVENT] 2024-11-20 11:15:48 - Rider R012 (Rider_12) added to the system and database.
+[EVENT] 2024-11-20 11:15:48 - Rider R013 (Rider_13) added to the system and database.
+[EVENT] 2024-11-20 11:15:48 - Rider R014 (Rider_14) added to the system and database.
+[EVENT] 2024-11-20 11:15:48 - Rider R015 (Rider_15) added to the system and database.
+[EVENT] 2024-11-20 11:15:48 - Rider R016 (Rider_16) added to the system and database.
+[EVENT] 2024-11-20 11:15:48 - Rider R017 (Rider_17) added to the system and database.
+[EVENT] 2024-11-20 11:15:48 - Rider R018 (Rider_18) added to the system and database.
+[EVENT] 2024-11-20 11:15:48 - Rider R019 (Rider_19) added to the system and database.
+[EVENT] 2024-11-20 11:15:48 - Rider R020 (Rider_20) added to the system and database.
+[EVENT] 2024-11-20 11:15:48 - Rider R021 (Rider_21) added to the system and database.
+[EVENT] 2024-11-20 11:15:48 - Rider R022 (Rider_22) added to the system and database.
+[EVENT] 2024-11-20 11:15:48 - Rider R023 (Rider_23) added to the system and database.
+[EVENT] 2024-11-20 11:15:48 - Rider R024 (Rider_24) added to the system and database.
+[EVENT] 2024-11-20 11:15:48 - Rider R025 (Rider_25) added to the system and database.
+[EVENT] 2024-11-20 11:15:48 - Rider R026 (Rider_26) added to the system and database.
+[EVENT] 2024-11-20 11:15:48 - Rider R027 (Rider_27) added to the system and database.
+[EVENT] 2024-11-20 11:15:48 - Rider R028 (Rider_28) added to the system and database.
+[EVENT] 2024-11-20 11:15:48 - Rider R029 (Rider_29) added to the system and database.
+[EVENT] 2024-11-20 11:15:48 - Rider R030 (Rider_30) added to the system and database.
+[EVENT] 2024-11-20 11:15:48 - Rider R031 (Rider_31) added to the system and database.
+[EVENT] 2024-11-20 11:15:48 - Rider R032 (Rider_32) added to the system and database.
+[EVENT] 2024-11-20 11:15:48 - Rider R033 (Rider_33) added to the system and database.
+[EVENT] 2024-11-20 11:15:48 - Rider R034 (Rider_34) added to the system and database.
+[EVENT] 2024-11-20 11:15:48 - Rider R035 (Rider_35) added to the system and database.
+[EVENT] 2024-11-20 11:15:48 - Rider R036 (Rider_36) added to the system and database.
+[EVENT] 2024-11-20 11:15:48 - Rider R037 (Rider_37) added to the system and database.
+[EVENT] 2024-11-20 11:15:48 - Rider R038 (Rider_38) added to the system and database.
+[EVENT] 2024-11-20 11:15:48 - Rider R039 (Rider_39) added to the system and database.
+[EVENT] 2024-11-20 11:15:48 - Rider R040 (Rider_40) added to the system and database.
+[EVENT] 2024-11-20 11:15:48 - Rider R041 (Rider_41) added to the system and database.
+[EVENT] 2024-11-20 11:15:48 - Rider R042 (Rider_42) added to the system and database.
+[EVENT] 2024-11-20 11:15:48 - Rider R043 (Rider_43) added to the system and database.
+[EVENT] 2024-11-20 11:15:48 - Rider R044 (Rider_44) added to the system and database.
+[EVENT] 2024-11-20 11:15:48 - Rider R045 (Rider_45) added to the system and database.
+[EVENT] 2024-11-20 11:15:48 - Ride request REQ001 added to the system and database by Rider_25.
+[EVENT] 2024-11-20 11:15:48 - Ride request REQ002 added to the system and database by Rider_24.
+[EVENT] 2024-11-20 11:15:48 - Ride request REQ003 added to the system and database by Rider_38.
+[EVENT] 2024-11-20 11:15:48 - Ride request REQ004 added to the system and database by Rider_1.
+[EVENT] 2024-11-20 11:15:48 - Ride request REQ005 added to the system and database by Rider_16.
+[EVENT] 2024-11-20 11:15:48 - Ride request REQ006 added to the system and database by Rider_37.
+[EVENT] 2024-11-20 11:15:48 - Ride request REQ007 added to the system and database by Rider_12.
+[EVENT] 2024-11-20 11:15:48 - Ride request REQ008 added to the system and database by Rider_34.
+[EVENT] 2024-11-20 11:15:48 - Ride request REQ009 added to the system and database by Rider_5.
+[EVENT] 2024-11-20 11:15:48 - Ride request REQ010 added to the system and database by Rider_10.
+[EVENT] 2024-11-20 11:15:48 - Ride request REQ011 added to the system and database by Rider_43.
+[EVENT] 2024-11-20 11:15:48 - Ride request REQ012 added to the system and database by Rider_15.
+[EVENT] 2024-11-20 11:15:48 - Ride request REQ013 added to the system and database by Rider_9.
+[EVENT] 2024-11-20 11:15:48 - Ride request REQ014 added to the system and database by Rider_27.
+[EVENT] 2024-11-20 11:15:48 - Ride request REQ015 added to the system and database by Rider_40.
+[EVENT] 2024-11-20 11:15:48 - Ride request REQ016 added to the system and database by Rider_21.
+[EVENT] 2024-11-20 11:15:48 - Ride request REQ017 added to the system and database by Rider_45.
+[EVENT] 2024-11-20 11:15:48 - Ride request REQ018 added to the system and database by Rider_11.
+[EVENT] 2024-11-20 11:15:48 - Ride request REQ019 added to the system and database by Rider_7.
+[EVENT] 2024-11-20 11:15:48 - Ride request REQ020 added to the system and database by Rider_31.
+[EVENT] 2024-11-20 11:15:48 - Ride request REQ021 added to the system and database by Rider_2.
+[EVENT] 2024-11-20 11:15:48 - Ride request REQ022 added to the system and database by Rider_4.
+[EVENT] 2024-11-20 11:15:48 - Ride request REQ023 added to the system and database by Rider_35.
+[EVENT] 2024-11-20 11:15:48 - Ride request REQ024 added to the system and database by Rider_33.
+[EVENT] 2024-11-20 11:15:48 - Ride request REQ025 added to the system and database by Rider_18.
+[EVENT] 2024-11-20 11:15:48 - Ride request REQ026 added to the system and database by Rider_36.
+[EVENT] 2024-11-20 11:15:48 - Ride request REQ027 added to the system and database by Rider_19.
+[EVENT] 2024-11-20 11:15:48 - Ride request REQ028 added to the system and database by Rider_29.
+[EVENT] 2024-11-20 11:15:48 - Ride request REQ029 added to the system and database by Rider_39.
+[EVENT] 2024-11-20 11:15:48 - Ride request REQ030 added to the system and database by Rider_44.
+[EVENT] 2024-11-20 11:15:48 - Ride request REQ031 added to the system and database by Rider_26.
+[EVENT] 2024-11-20 11:15:48 - Ride request REQ032 added to the system and database by Rider_23.
+[EVENT] 2024-11-20 11:15:48 - Ride request REQ033 added to the system and database by Rider_6.
+[EVENT] 2024-11-20 11:15:48 - Ride request REQ034 added to the system and database by Rider_30.
+[EVENT] 2024-11-20 11:15:48 - Ride request REQ035 added to the system and database by Rider_13.
+[EVENT] 2024-11-20 11:15:48 - Ride request REQ036 added to the system and database by Rider_28.
+[EVENT] 2024-11-20 11:15:48 - Ride request REQ037 added to the system and database by Rider_17.
+[EVENT] 2024-11-20 11:15:48 - Ride request REQ038 added to the system and database by Rider_32.
+[EVENT] 2024-11-20 11:15:48 - Ride request REQ039 added to the system and database by Rider_22.
+[EVENT] 2024-11-20 11:15:48 - Ride request REQ040 added to the system and database by Rider_14.
+[EVENT] 2024-11-20 11:15:48 - Ride request REQ041 added to the system and database by Rider_41.
+[EVENT] 2024-11-20 11:15:48 - Ride request REQ042 added to the system and database by Rider_42.
+[EVENT] 2024-11-20 11:15:48 - Ride request REQ043 added to the system and database by Rider_20.
+[EVENT] 2024-11-20 11:15:48 - Ride request REQ044 added to the system and database by Rider_8.
+[EVENT] 2024-11-20 11:15:48 - Ride request REQ045 added to the system and database by Rider_3.
+[EVENT] 2024-11-20 11:15:48 - Ride request REQ046 added to the system and database by Rider_25.
+[EVENT] 2024-11-20 11:15:48 - Ride request REQ047 added to the system and database by Rider_24.
+[EVENT] 2024-11-20 11:15:48 - Ride request REQ048 added to the system and database by Rider_38.
+[EVENT] 2024-11-20 11:15:48 - Ride request REQ049 added to the system and database by Rider_1.
+[EVENT] 2024-11-20 11:15:48 - Ride request REQ050 added to the system and database by Rider_16.
+[EVENT] 2024-11-20 11:15:48 - Ride REQ001 started for Rider R025 (Rider_25).
+[EVENT] 2024-11-20 11:15:48 - Matched RideRequest REQ001 with Driver D007 (Driver_7)  (driver-to-pickup distance: 0.00, pickup-to-dropoff distance: 8.06, fare: $21.12)
+[EVENT] 2024-11-20 11:15:48 - Ride REQ002 started for Rider R024 (Rider_24).
+[EVENT] 2024-11-20 11:15:48 - Matched RideRequest REQ002 with Driver D023 (Driver_23)  (driver-to-pickup distance: 1.41, pickup-to-dropoff distance: 10.20, fare: $25.40)
+[EVENT] 2024-11-20 11:15:48 - Ride REQ003 started for Rider R038 (Rider_38).
+[EVENT] 2024-11-20 11:15:48 - Matched RideRequest REQ003 with Driver D013 (Driver_13)  (driver-to-pickup distance: 3.61, pickup-to-dropoff distance: 17.46, fare: $39.93)
+[EVENT] 2024-11-20 11:15:48 - Ride REQ004 started for Rider R001 (Rider_1).
+[EVENT] 2024-11-20 11:15:48 - Matched RideRequest REQ004 with Driver D034 (Driver_34)  (driver-to-pickup distance: 3.16, pickup-to-dropoff distance: 14.21, fare: $33.43)
+[EVENT] 2024-11-20 11:15:48 - Ride REQ005 started for Rider R016 (Rider_16).
+[EVENT] 2024-11-20 11:15:48 - Matched RideRequest REQ005 with Driver D010 (Driver_10)  (driver-to-pickup distance: 4.12, pickup-to-dropoff distance: 15.81, fare: $36.62)
+[EVENT] 2024-11-20 11:15:48 - Ride REQ006 started for Rider R037 (Rider_37).
+[EVENT] 2024-11-20 11:15:48 - Matched RideRequest REQ006 with Driver D039 (Driver_39)  (driver-to-pickup distance: 2.24, pickup-to-dropoff distance: 11.70, fare: $28.41)
+[EVENT] 2024-11-20 11:15:48 - Ride REQ007 started for Rider R012 (Rider_12).
+[EVENT] 2024-11-20 11:15:48 - Matched RideRequest REQ007 with Driver D036 (Driver_36)  (driver-to-pickup distance: 3.00, pickup-to-dropoff distance: 9.22, fare: $23.44)
+[EVENT] 2024-11-20 11:15:48 - Ride REQ008 started for Rider R034 (Rider_34).
+[EVENT] 2024-11-20 11:15:48 - Matched RideRequest REQ008 with Driver D019 (Driver_19)  (driver-to-pickup distance: 6.00, pickup-to-dropoff distance: 17.03, fare: $39.06)
+[EVENT] 2024-11-20 11:15:48 - Ride REQ009 started for Rider R005 (Rider_5).
+[EVENT] 2024-11-20 11:15:48 - Matched RideRequest REQ009 with Driver D038 (Driver_38)  (driver-to-pickup distance: 5.39, pickup-to-dropoff distance: 17.46, fare: $39.93)
+[EVENT] 2024-11-20 11:15:48 - Ride REQ010 started for Rider R010 (Rider_10).
+[EVENT] 2024-11-20 11:15:48 - Matched RideRequest REQ010 with Driver D030 (Driver_30)  (driver-to-pickup distance: 1.00, pickup-to-dropoff distance: 9.49, fare: $23.97)
+[EVENT] 2024-11-20 11:15:48 - Ride REQ011 started for Rider R043 (Rider_43).
+[EVENT] 2024-11-20 11:15:48 - Matched RideRequest REQ011 with Driver D037 (Driver_37)  (driver-to-pickup distance: 7.62, pickup-to-dropoff distance: 4.12, fare: $13.25)
+[EVENT] 2024-11-20 11:15:48 - Ride REQ012 started for Rider R015 (Rider_15).
+[EVENT] 2024-11-20 11:15:48 - Matched RideRequest REQ012 with Driver D017 (Driver_17)  (driver-to-pickup distance: 4.12, pickup-to-dropoff distance: 13.04, fare: $31.08)
+[EVENT] 2024-11-20 11:15:48 - Ride REQ013 started for Rider R009 (Rider_9).
+[EVENT] 2024-11-20 11:15:48 - Matched RideRequest REQ013 with Driver D032 (Driver_32)  (driver-to-pickup distance: 9.22, pickup-to-dropoff distance: 16.64, fare: $38.29)
+[EVENT] 2024-11-20 11:15:48 - Ride REQ014 started for Rider R027 (Rider_27).
+[EVENT] 2024-11-20 11:15:48 - Matched RideRequest REQ014 with Driver D001 (Driver_1)  (driver-to-pickup distance: 3.16, pickup-to-dropoff distance: 15.03, fare: $35.07)
+[EVENT] 2024-11-20 11:15:48 - Ride REQ015 started for Rider R040 (Rider_40).
+[EVENT] 2024-11-20 11:15:48 - Matched RideRequest REQ015 with Driver D012 (Driver_12)  (driver-to-pickup distance: 6.32, pickup-to-dropoff distance: 22.02, fare: $49.05)
+[EVENT] 2024-11-20 11:15:48 - Ride REQ016 started for Rider R021 (Rider_21).
+[EVENT] 2024-11-20 11:15:48 - Matched RideRequest REQ016 with Driver D004 (Driver_4)  (driver-to-pickup distance: 13.42, pickup-to-dropoff distance: 16.12, fare: $37.25)
+[EVENT] 2024-11-20 11:15:48 - Ride REQ017 started for Rider R045 (Rider_45).
+[EVENT] 2024-11-20 11:15:48 - Matched RideRequest REQ017 with Driver D025 (Driver_25)  (driver-to-pickup distance: 8.06, pickup-to-dropoff distance: 10.00, fare: $25.00)
+[EVENT] 2024-11-20 11:15:48 - Ride REQ018 started for Rider R011 (Rider_11).
+[EVENT] 2024-11-20 11:15:48 - Matched RideRequest REQ018 with Driver D008 (Driver_8)  (driver-to-pickup distance: 1.00, pickup-to-dropoff distance: 17.03, fare: $39.06)
+[EVENT] 2024-11-20 11:15:48 - Ride REQ019 started for Rider R007 (Rider_7).
+[EVENT] 2024-11-20 11:15:48 - Matched RideRequest REQ019 with Driver D003 (Driver_3)  (driver-to-pickup distance: 18.25, pickup-to-dropoff distance: 16.55, fare: $38.11)
+[ERROR] 2024-11-20 11:15:48 - No available driver found for RideRequest REQ020
+[ERROR] 2024-11-20 11:15:48 - No available driver found for RideRequest REQ021
+[ERROR] 2024-11-20 11:15:48 - No available driver found for RideRequest REQ022
+[ERROR] 2024-11-20 11:15:48 - No available driver found for RideRequest REQ023
+[ERROR] 2024-11-20 11:15:48 - No available driver found for RideRequest REQ024
+[ERROR] 2024-11-20 11:15:48 - No available driver found for RideRequest REQ025
+[ERROR] 2024-11-20 11:15:48 - No available driver found for RideRequest REQ026
+[ERROR] 2024-11-20 11:15:48 - No available driver found for RideRequest REQ027
+[ERROR] 2024-11-20 11:15:48 - No available driver found for RideRequest REQ028
+[ERROR] 2024-11-20 11:15:48 - No available driver found for RideRequest REQ029
+[ERROR] 2024-11-20 11:15:48 - No available driver found for RideRequest REQ030
+[ERROR] 2024-11-20 11:15:48 - No available driver found for RideRequest REQ031
+[ERROR] 2024-11-20 11:15:48 - No available driver found for RideRequest REQ032
+[ERROR] 2024-11-20 11:15:48 - No available driver found for RideRequest REQ033
+[ERROR] 2024-11-20 11:15:48 - No available driver found for RideRequest REQ034
+[ERROR] 2024-11-20 11:15:48 - No available driver found for RideRequest REQ035
+[ERROR] 2024-11-20 11:15:48 - No available driver found for RideRequest REQ036
+[ERROR] 2024-11-20 11:15:48 - No available driver found for RideRequest REQ037
+[ERROR] 2024-11-20 11:15:48 - No available driver found for RideRequest REQ038
+[ERROR] 2024-11-20 11:15:48 - No available driver found for RideRequest REQ039
+[ERROR] 2024-11-20 11:15:48 - No available driver found for RideRequest REQ040
+[ERROR] 2024-11-20 11:15:48 - No available driver found for RideRequest REQ041
+[ERROR] 2024-11-20 11:15:48 - No available driver found for RideRequest REQ042
+[ERROR] 2024-11-20 11:15:48 - No available driver found for RideRequest REQ043
+[ERROR] 2024-11-20 11:15:48 - No available driver found for RideRequest REQ044
+[ERROR] 2024-11-20 11:15:48 - No available driver found for RideRequest REQ045
+[ERROR] 2024-11-20 11:15:48 - No available driver found for RideRequest REQ046
+[ERROR] 2024-11-20 11:15:48 - No available driver found for RideRequest REQ047
+[ERROR] 2024-11-20 11:15:48 - No available driver found for RideRequest REQ048
+[ERROR] 2024-11-20 11:15:48 - No available driver found for RideRequest REQ049
+[ERROR] 2024-11-20 11:15:48 - No available driver found for RideRequest REQ050
+[EVENT] 2024-11-20 11:15:49 - Ride REQ001 cancelled by Rider before starting.
+[EVENT] 2024-11-20 11:15:49 - Driver D007 (Driver_7) location remains unchanged after cancellation.
+[EVENT] 2024-11-20 11:15:50 - Ride REQ002 cancelled by Driver after starting.
+[EVENT] 2024-11-20 11:15:50 - Driver D023 (Driver_23) location updated to REQ002 pickup point (6, 17) after cancellation.
+[EVENT] 2024-11-20 11:15:51 - Ride REQ003 completed.
+[EVENT] 2024-11-20 11:15:51 - Driver D013 (Driver_13) location updated to REQ003 drop-off point (7, 18) after ride completion.
+[EVENT] 2024-11-20 11:15:52 - Ride REQ004 completed.
+[EVENT] 2024-11-20 11:15:52 - Driver D034 (Driver_34) location updated to REQ004 drop-off point (16, 16) after ride completion.
+[EVENT] 2024-11-20 11:15:53 - Ride REQ005 cancelled by Rider before starting.
+[EVENT] 2024-11-20 11:15:53 - Driver D010 (Driver_10) location remains unchanged after cancellation.
+[EVENT] 2024-11-20 11:15:54 - Ride REQ006 completed.
+[EVENT] 2024-11-20 11:15:54 - Driver D039 (Driver_39) location updated to REQ006 drop-off point (15, 6) after ride completion.
+[EVENT] 2024-11-20 11:15:55 - Ride REQ007 cancelled by Rider after starting.
+[EVENT] 2024-11-20 11:15:55 - Driver D036 (Driver_36) location updated to REQ007 pickup point (1, 12) after cancellation.
+[EVENT] 2024-11-20 11:15:56 - Ride REQ008 completed.
+[EVENT] 2024-11-20 11:15:56 - Driver D019 (Driver_19) location updated to REQ008 drop-off point (18, 7) after ride completion.
+[EVENT] 2024-11-20 11:15:57 - Ride REQ009 completed.
+[EVENT] 2024-11-20 11:15:57 - Driver D038 (Driver_38) location updated to REQ009 drop-off point (1, 3) after ride completion.
+[EVENT] 2024-11-20 11:15:59 - Ride REQ010 cancelled by Driver before starting.
+[EVENT] 2024-11-20 11:15:59 - Driver D030 (Driver_30) location remains unchanged after cancellation.
+[EVENT] 2024-11-20 11:16:00 - Ride REQ011 completed.
+[EVENT] 2024-11-20 11:16:00 - Driver D037 (Driver_37) location updated to REQ011 drop-off point (14, 18) after ride completion.
+[EVENT] 2024-11-20 11:16:01 - Ride REQ012 cancelled by Rider after starting.
+[EVENT] 2024-11-20 11:16:01 - Driver D017 (Driver_17) location updated to REQ012 pickup point (8, 2) after cancellation.
+[EVENT] 2024-11-20 11:16:02 - Ride REQ013 cancelled by Rider after starting.
+[EVENT] 2024-11-20 11:16:02 - Driver D032 (Driver_32) location updated to REQ013 pickup point (10, 18) after cancellation.
+[EVENT] 2024-11-20 11:16:03 - Ride REQ014 cancelled by Driver after starting.
+[EVENT] 2024-11-20 11:16:03 - Driver D001 (Driver_1) location updated to REQ014 pickup point (18, 9) after cancellation.
+[EVENT] 2024-11-20 11:16:04 - Ride REQ015 cancelled by Rider before starting.
+[EVENT] 2024-11-20 11:16:04 - Driver D012 (Driver_12) location remains unchanged after cancellation.
+[EVENT] 2024-11-20 11:16:05 - Ride REQ016 cancelled by Rider before starting.
+[EVENT] 2024-11-20 11:16:05 - Driver D004 (Driver_4) location remains unchanged after cancellation.
+[EVENT] 2024-11-20 11:16:06 - Ride REQ017 completed.
+[EVENT] 2024-11-20 11:16:06 - Driver D025 (Driver_25) location updated to REQ017 drop-off point (17, 11) after ride completion.
+[EVENT] 2024-11-20 11:16:07 - Ride REQ018 cancelled by Rider after starting.
+[EVENT] 2024-11-20 11:16:07 - Driver D008 (Driver_8) location updated to REQ018 pickup point (0, 16) after cancellation.
+[EVENT] 2024-11-20 11:16:08 - Ride REQ019 cancelled by Rider after starting.
+[EVENT] 2024-11-20 11:16:08 - Driver D003 (Driver_3) location updated to REQ019 pickup point (1, 5) after cancellation.
+[EVENT] 2024-11-20 11:16:24 - Ride REQ020 started for Rider R031 (Rider_31).
+[EVENT] 2024-11-20 11:16:24 - Matched RideRequest REQ020 with Driver D034 (Driver_34)  (driver-to-pickup distance: 2.24, pickup-to-dropoff distance: 20.00, fare: $45.00)
+[EVENT] 2024-11-20 11:16:24 - Ride REQ021 started for Rider R002 (Rider_2).
+[EVENT] 2024-11-20 11:16:24 - Matched RideRequest REQ021 with Driver D030 (Driver_30)  (driver-to-pickup distance: 2.24, pickup-to-dropoff distance: 8.60, fare: $22.20)
+[EVENT] 2024-11-20 11:16:24 - Ride REQ022 started for Rider R004 (Rider_4).
+[EVENT] 2024-11-20 11:16:24 - Matched RideRequest REQ022 with Driver D019 (Driver_19)  (driver-to-pickup distance: 1.41, pickup-to-dropoff distance: 13.93, fare: $32.86)
+[EVENT] 2024-11-20 11:16:24 - Ride REQ023 started for Rider R035 (Rider_35).
+[EVENT] 2024-11-20 11:16:24 - Matched RideRequest REQ023 with Driver D010 (Driver_10)  (driver-to-pickup distance: 1.00, pickup-to-dropoff distance: 19.10, fare: $43.21)
+[EVENT] 2024-11-20 11:16:24 - Ride REQ024 started for Rider R033 (Rider_33).
+[EVENT] 2024-11-20 11:16:24 - Matched RideRequest REQ024 with Driver D004 (Driver_4)  (driver-to-pickup distance: 5.66, pickup-to-dropoff distance: 13.04, fare: $31.08)
+[EVENT] 2024-11-20 11:16:24 - Ride REQ025 started for Rider R018 (Rider_18).
+[EVENT] 2024-11-20 11:16:24 - Matched RideRequest REQ025 with Driver D039 (Driver_39)  (driver-to-pickup distance: 7.21, pickup-to-dropoff distance: 17.03, fare: $39.06)
+[EVENT] 2024-11-20 11:16:24 - Ride REQ026 started for Rider R036 (Rider_36).
+[EVENT] 2024-11-20 11:16:24 - Matched RideRequest REQ026 with Driver D001 (Driver_1)  (driver-to-pickup distance: 6.00, pickup-to-dropoff distance: 17.46, fare: $39.93)
+[EVENT] 2024-11-20 11:16:24 - Ride REQ027 started for Rider R019 (Rider_19).
+[EVENT] 2024-11-20 11:16:24 - Matched RideRequest REQ027 with Driver D038 (Driver_38)  (driver-to-pickup distance: 2.24, pickup-to-dropoff distance: 6.40, fare: $17.81)
+[EVENT] 2024-11-20 11:16:24 - Ride REQ028 started for Rider R029 (Rider_29).
+[EVENT] 2024-11-20 11:16:24 - Matched RideRequest REQ028 with Driver D025 (Driver_25)  (driver-to-pickup distance: 9.22, pickup-to-dropoff distance: 3.61, fare: $12.21)
+[EVENT] 2024-11-20 11:16:24 - Ride REQ029 started for Rider R039 (Rider_39).
+[EVENT] 2024-11-20 11:16:24 - Matched RideRequest REQ029 with Driver D017 (Driver_17)  (driver-to-pickup distance: 4.00, pickup-to-dropoff distance: 10.20, fare: $25.40)
+[EVENT] 2024-11-20 11:16:24 - Ride REQ030 started for Rider R044 (Rider_44).
+[EVENT] 2024-11-20 11:16:24 - Matched RideRequest REQ030 with Driver D012 (Driver_12)  (driver-to-pickup distance: 12.17, pickup-to-dropoff distance: 15.03, fare: $35.07)
+[EVENT] 2024-11-20 11:16:24 - Ride REQ031 started for Rider R026 (Rider_26).
+[EVENT] 2024-11-20 11:16:24 - Matched RideRequest REQ031 with Driver D037 (Driver_37)  (driver-to-pickup distance: 13.00, pickup-to-dropoff distance: 6.08, fare: $17.17)
+[EVENT] 2024-11-20 11:16:24 - Ride REQ032 started for Rider R023 (Rider_23).
+[EVENT] 2024-11-20 11:16:24 - Matched RideRequest REQ032 with Driver D003 (Driver_3)  (driver-to-pickup distance: 4.47, pickup-to-dropoff distance: 14.21, fare: $33.43)
+[EVENT] 2024-11-20 11:16:24 - Ride REQ033 started for Rider R006 (Rider_6).
+[EVENT] 2024-11-20 11:16:24 - Matched RideRequest REQ033 with Driver D036 (Driver_36)  (driver-to-pickup distance: 9.49, pickup-to-dropoff distance: 12.08, fare: $29.17)
+[EVENT] 2024-11-20 11:16:24 - Ride REQ034 started for Rider R030 (Rider_30).
+[EVENT] 2024-11-20 11:16:24 - Matched RideRequest REQ034 with Driver D007 (Driver_7)  (driver-to-pickup distance: 1.41, pickup-to-dropoff distance: 23.43, fare: $51.86)
+[EVENT] 2024-11-20 11:16:24 - Ride REQ035 started for Rider R013 (Rider_13).
+[EVENT] 2024-11-20 11:16:24 - Matched RideRequest REQ035 with Driver D023 (Driver_23)  (driver-to-pickup distance: 13.15, pickup-to-dropoff distance: 2.24, fare: $9.47)
+[EVENT] 2024-11-20 11:16:24 - Ride REQ036 started for Rider R028 (Rider_28).
+[EVENT] 2024-11-20 11:16:24 - Matched RideRequest REQ036 with Driver D032 (Driver_32)  (driver-to-pickup distance: 8.94, pickup-to-dropoff distance: 9.85, fare: $24.70)
+[EVENT] 2024-11-20 11:16:24 - Ride REQ037 started for Rider R017 (Rider_17).
+[EVENT] 2024-11-20 11:16:24 - Matched RideRequest REQ037 with Driver D008 (Driver_8)  (driver-to-pickup distance: 14.32, pickup-to-dropoff distance: 5.39, fare: $15.77)
+[EVENT] 2024-11-20 11:16:24 - Ride REQ038 started for Rider R032 (Rider_32).
+[EVENT] 2024-11-20 11:16:24 - Matched RideRequest REQ038 with Driver D013 (Driver_13)  (driver-to-pickup distance: 10.05, pickup-to-dropoff distance: 10.05, fare: $25.10)
+[ERROR] 2024-11-20 11:16:24 - No available driver found for RideRequest REQ039
+[ERROR] 2024-11-20 11:16:24 - No available driver found for RideRequest REQ040
+[ERROR] 2024-11-20 11:16:24 - No available driver found for RideRequest REQ041
+[ERROR] 2024-11-20 11:16:24 - No available driver found for RideRequest REQ042
+[ERROR] 2024-11-20 11:16:24 - No available driver found for RideRequest REQ043
+[ERROR] 2024-11-20 11:16:24 - No available driver found for RideRequest REQ044
+[ERROR] 2024-11-20 11:16:24 - No available driver found for RideRequest REQ045
+[ERROR] 2024-11-20 11:16:24 - No available driver found for RideRequest REQ046
+[ERROR] 2024-11-20 11:16:24 - No available driver found for RideRequest REQ047
+[ERROR] 2024-11-20 11:16:24 - No available driver found for RideRequest REQ048
+[ERROR] 2024-11-20 11:16:24 - No available driver found for RideRequest REQ049
+[ERROR] 2024-11-20 11:16:24 - No available driver found for RideRequest REQ050
+[EVENT] 2024-11-20 11:16:25 - Ride REQ020 cancelled by Rider after starting.
+[EVENT] 2024-11-20 11:16:25 - Driver D034 (Driver_34) location updated to REQ020 pickup point (18, 17) after cancellation.
+[EVENT] 2024-11-20 11:16:26 - Ride REQ021 cancelled by Rider before starting.
+[EVENT] 2024-11-20 11:16:26 - Driver D030 (Driver_30) location remains unchanged after cancellation.
+[EVENT] 2024-11-20 11:16:27 - Ride REQ022 cancelled by Rider after starting.
+[EVENT] 2024-11-20 11:16:27 - Driver D019 (Driver_19) location updated to REQ022 pickup point (19, 6) after cancellation.
+[EVENT] 2024-11-20 11:16:28 - Ride REQ023 cancelled by Driver before starting.
+[EVENT] 2024-11-20 11:16:28 - Driver D010 (Driver_10) location remains unchanged after cancellation.
+[EVENT] 2024-11-20 11:16:29 - Ride REQ024 cancelled by Driver before starting.
+[EVENT] 2024-11-20 11:16:29 - Driver D004 (Driver_4) location remains unchanged after cancellation.
+[EVENT] 2024-11-20 11:16:30 - Ride REQ025 cancelled by Rider before starting.
+[EVENT] 2024-11-20 11:16:30 - Driver D039 (Driver_39) location remains unchanged after cancellation.
+[EVENT] 2024-11-20 11:16:31 - Ride REQ026 cancelled by Rider after starting.
+[EVENT] 2024-11-20 11:16:31 - Driver D001 (Driver_1) location updated to REQ026 pickup point (18, 3) after cancellation.
+[EVENT] 2024-11-20 11:16:32 - Ride REQ027 cancelled by Rider before starting.
+[EVENT] 2024-11-20 11:16:32 - Driver D038 (Driver_38) location remains unchanged after cancellation.
+[EVENT] 2024-11-20 11:16:33 - Ride REQ028 cancelled by Driver after starting.
+[EVENT] 2024-11-20 11:16:33 - Driver D025 (Driver_25) location updated to REQ028 pickup point (19, 2) after cancellation.
+[EVENT] 2024-11-20 11:16:34 - Ride REQ029 cancelled by Driver after starting.
+[EVENT] 2024-11-20 11:16:34 - Driver D017 (Driver_17) location updated to REQ029 pickup point (12, 2) after cancellation.
+[EVENT] 2024-11-20 11:16:35 - Ride REQ030 completed.
+[EVENT] 2024-11-20 11:16:35 - Driver D012 (Driver_12) location updated to REQ030 drop-off point (18, 15) after ride completion.
+[EVENT] 2024-11-20 11:16:36 - Ride REQ031 cancelled by Rider after starting.
+[EVENT] 2024-11-20 11:16:36 - Driver D037 (Driver_37) location updated to REQ031 pickup point (19, 6) after cancellation.
+[EVENT] 2024-11-20 11:16:37 - Ride REQ032 cancelled by Driver after starting.
+[EVENT] 2024-11-20 11:16:37 - Driver D003 (Driver_3) location updated to REQ032 pickup point (5, 7) after cancellation.
+[EVENT] 2024-11-20 11:16:38 - Ride REQ033 completed.
+[EVENT] 2024-11-20 11:16:38 - Driver D036 (Driver_36) location updated to REQ033 drop-off point (15, 8) after ride completion.
+[EVENT] 2024-11-20 11:16:39 - Ride REQ034 cancelled by Driver after starting.
+[EVENT] 2024-11-20 11:16:39 - Driver D007 (Driver_7) location updated to REQ034 pickup point (1, 17) after cancellation.
+[EVENT] 2024-11-20 11:16:40 - Ride REQ035 completed.
+[EVENT] 2024-11-20 11:16:40 - Driver D023 (Driver_23) location updated to REQ035 drop-off point (7, 6) after ride completion.
+[EVENT] 2024-11-20 11:16:41 - Ride REQ036 cancelled by Rider before starting.
+[EVENT] 2024-11-20 11:16:41 - Driver D032 (Driver_32) location remains unchanged after cancellation.
+[EVENT] 2024-11-20 11:16:42 - Ride REQ037 completed.
+[EVENT] 2024-11-20 11:16:42 - Driver D008 (Driver_8) location updated to REQ037 drop-off point (11, 1) after ride completion.
+[EVENT] 2024-11-20 11:16:43 - Ride REQ038 cancelled by Driver after starting.
+[EVENT] 2024-11-20 11:16:43 - Driver D013 (Driver_13) location updated to REQ038 pickup point (17, 19) after cancellation.
+[EVENT] 2024-11-20 11:16:49 - Ride REQ039 started for Rider R022 (Rider_22).
+[EVENT] 2024-11-20 11:16:49 - Matched RideRequest REQ039 with Driver D007 (Driver_7)  (driver-to-pickup distance: 1.00, pickup-to-dropoff distance: 14.56, fare: $34.12)
+[EVENT] 2024-11-20 11:16:49 - Ride REQ040 started for Rider R014 (Rider_14).
+[EVENT] 2024-11-20 11:16:49 - Matched RideRequest REQ040 with Driver D038 (Driver_38)  (driver-to-pickup distance: 3.00, pickup-to-dropoff distance: 2.83, fare: $10.66)
+[EVENT] 2024-11-20 11:16:49 - Ride REQ041 started for Rider R041 (Rider_41).
+[EVENT] 2024-11-20 11:16:49 - Matched RideRequest REQ041 with Driver D019 (Driver_19)  (driver-to-pickup distance: 3.00, pickup-to-dropoff distance: 10.00, fare: $25.00)
+[EVENT] 2024-11-20 11:16:49 - Ride REQ042 started for Rider R042 (Rider_42).
+[EVENT] 2024-11-20 11:16:49 - Matched RideRequest REQ042 with Driver D012 (Driver_12)  (driver-to-pickup distance: 3.16, pickup-to-dropoff distance: 13.45, fare: $31.91)
+[EVENT] 2024-11-20 11:16:49 - Ride REQ043 started for Rider R020 (Rider_20).
+[EVENT] 2024-11-20 11:16:49 - Matched RideRequest REQ043 with Driver D003 (Driver_3)  (driver-to-pickup distance: 8.60, pickup-to-dropoff distance: 23.02, fare: $51.04)
+[EVENT] 2024-11-20 11:16:49 - Ride REQ044 started for Rider R008 (Rider_8).
+[EVENT] 2024-11-20 11:16:49 - Matched RideRequest REQ044 with Driver D023 (Driver_23)  (driver-to-pickup distance: 5.83, pickup-to-dropoff distance: 5.10, fare: $15.20)
+[EVENT] 2024-11-20 11:16:49 - Ride REQ045 started for Rider R003 (Rider_3).
+[EVENT] 2024-11-20 11:16:49 - Matched RideRequest REQ045 with Driver D034 (Driver_34)  (driver-to-pickup distance: 4.12, pickup-to-dropoff distance: 15.52, fare: $36.05)
+[EVENT] 2024-11-20 11:16:49 - Ride REQ046 started for Rider R025 (Rider_25).
+[EVENT] 2024-11-20 11:16:49 - Matched RideRequest REQ046 with Driver D010 (Driver_10)  (driver-to-pickup distance: 2.00, pickup-to-dropoff distance: 5.39, fare: $15.77)
+[EVENT] 2024-11-20 11:16:49 - Ride REQ047 started for Rider R024 (Rider_24).
+[EVENT] 2024-11-20 11:16:49 - Matched RideRequest REQ047 with Driver D036 (Driver_36)  (driver-to-pickup distance: 2.24, pickup-to-dropoff distance: 9.00, fare: $23.00)
+[EVENT] 2024-11-20 11:16:49 - Ride REQ048 started for Rider R038 (Rider_38).
+[EVENT] 2024-11-20 11:16:49 - Matched RideRequest REQ048 with Driver D030 (Driver_30)  (driver-to-pickup distance: 7.81, pickup-to-dropoff distance: 13.42, fare: $31.83)
+[EVENT] 2024-11-20 11:16:49 - Ride REQ049 started for Rider R001 (Rider_1).
+[EVENT] 2024-11-20 11:16:49 - Matched RideRequest REQ049 with Driver D008 (Driver_8)  (driver-to-pickup distance: 11.05, pickup-to-dropoff distance: 10.44, fare: $25.88)
+[EVENT] 2024-11-20 11:16:49 - Ride REQ050 started for Rider R016 (Rider_16).
+[EVENT] 2024-11-20 11:16:49 - Matched RideRequest REQ050 with Driver D004 (Driver_4)  (driver-to-pickup distance: 5.83, pickup-to-dropoff distance: 6.40, fare: $17.81)
+[EVENT] 2024-11-20 11:16:50 - Ride REQ039 cancelled by Driver before starting.
+[EVENT] 2024-11-20 11:16:50 - Driver D007 (Driver_7) location remains unchanged after cancellation.
+[EVENT] 2024-11-20 11:16:51 - Ride REQ040 cancelled by Rider before starting.
+[EVENT] 2024-11-20 11:16:51 - Driver D038 (Driver_38) location remains unchanged after cancellation.
+[EVENT] 2024-11-20 11:16:52 - Ride REQ041 completed.
+[EVENT] 2024-11-20 11:16:52 - Driver D019 (Driver_19) location updated to REQ041 drop-off point (13, 17) after ride completion.
+[EVENT] 2024-11-20 11:16:53 - Ride REQ042 cancelled by Driver after starting.
+[EVENT] 2024-11-20 11:16:53 - Driver D012 (Driver_12) location updated to REQ042 pickup point (15, 14) after cancellation.
+[EVENT] 2024-11-20 11:16:54 - Ride REQ043 cancelled by Rider after starting.
+[EVENT] 2024-11-20 11:16:54 - Driver D003 (Driver_3) location updated to REQ043 pickup point (0, 0) after cancellation.
+[EVENT] 2024-11-20 11:16:55 - Ride REQ044 cancelled by Rider after starting.
+[EVENT] 2024-11-20 11:16:55 - Driver D023 (Driver_23) location updated to REQ044 pickup point (4, 1) after cancellation.
+[EVENT] 2024-11-20 11:16:56 - Ride REQ045 cancelled by Rider after starting.
+[EVENT] 2024-11-20 11:16:56 - Driver D034 (Driver_34) location updated to REQ045 pickup point (14, 16) after cancellation.
+[EVENT] 2024-11-20 11:16:57 - Ride REQ046 cancelled by Rider before starting.
+[EVENT] 2024-11-20 11:16:57 - Driver D010 (Driver_10) location remains unchanged after cancellation.
+[EVENT] 2024-11-20 11:16:58 - Ride REQ047 cancelled by Driver before starting.
+[EVENT] 2024-11-20 11:16:58 - Driver D036 (Driver_36) location remains unchanged after cancellation.
+[EVENT] 2024-11-20 11:16:59 - Ride REQ048 completed.
+[EVENT] 2024-11-20 11:16:59 - Driver D030 (Driver_30) location updated to REQ048 drop-off point (8, 2) after ride completion.
+[EVENT] 2024-11-20 11:17:00 - Ride REQ049 cancelled by Driver after starting.
+[EVENT] 2024-11-20 11:17:00 - Driver D008 (Driver_8) location updated to REQ049 pickup point (0, 0) after cancellation.
+[EVENT] 2024-11-20 11:17:01 - Ride REQ050 completed.
+[EVENT] 2024-11-20 11:17:01 - Driver D004 (Driver_4) location updated to REQ050 drop-off point (11, 15) after ride completion.

@@ -256,6 +256,13 @@ void SystemManager::cancel_ride(const std::string& ride_id, const std::string& b
         // Update ride status
         request->update_status(after_start ? Status::CancelledAfterStart : Status::CancelledBeforeStart);
 
+	// Always set the database status as "Cancelled"
+        std::string ride_update_query = "UPDATE RideRequests SET status = 'Cancelled' WHERE request_id = '" + request->get_request_id() + "';";
+
+        if (!db_manager.execute_query(ride_update_query)) {
+            db_manager.log_error("Failed to update ride request " + ride_id);
+        }
+
         // Log the cancellation event
         logger.log_event("Ride " + ride_id + " cancelled by " + by_whom +
                          (after_start ? " after starting." : " before starting."));
